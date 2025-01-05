@@ -1,0 +1,33 @@
+- title: Home
+  link: '/'
+  
+- title: About
+  link: '/about/'
+
+- title: Contact
+  link: '/contact/'
+  
+- title: Blog
+  link: '/blog/'
+  
+- title: Categories
+  link: '/categories/'
+
+- title: Projects
+  dropdown:
+    - title: Testimonials
+      link: /testimonials/
+    - title: ESCAPE
+      link: /portfolio/
+    - title: ENPEN
+      link: /portfolio/
+    - title: Center for Pathogen Bioinformatics
+      link: /portfolio/
+    - title: Basel Wastewater
+      link: /portfolio/
+    - title: Pathoplexus & Loculus
+      link: /portfolio/
+    - title: ARTIC 2.0
+      link: /portfolio/
+
+

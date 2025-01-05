@@ -1,0 +1,60 @@
+---
+layout: page
+title: About
+permalink: /about/
+desctiption: "EVE Lab is a computational biology lab that uses phylogenetics to understand Epidemiology & Virus Evolution"
+---
+
+<div id="team">
+  <div class="row">
+    <div class="col-md-6 history">
+      <h6 class="double-u">Our Story</h6>
+      <p>The Epidemiology and Virus Evolution (EVE) Lab's purpose is to unravel how viruses evolve and spread in diverse populations and environments. Based at the Swiss Tropical and Public Health Institute in Basel, our lab combines expertise in viral genomics, epidemiology, and bioinformatics to answer pressing public health and research questions. From studying the evolution of Enteroviruses to tracking ongoing threats like polio and seasonal coronaviruses, we aim to understand how pathogens adapt to our changing behaviours and demographics, and to overcome our immunity. </p>
+      <p>We are dedicated to transparency and collaboration, allowing us to be involved in many exciting and international collaborations to push the boundaries of science and develop new and useful programs and interfaces. As a lab driven by curiosity and impact, we thrive at the intersection of science, public health, and open research. </p>
+    </div>
+    <div class="col-md-6 goals">
+      <h6 class="double-u">Our Goals</h6>
+      <p>Our primary goal is to advance the understanding of viral evolution and transmission to improve global public health responses as well as our overall knowledge of evolution. We work to build tools and platforms that promote equitable data sharing and enable deeper insights into virus dynamics, with a focus on empowering researchers and public health scientists. </p>
+      <p>By integrating genomic surveillance with immunological and epidemiological studies, we aim to uncover how viruses move communities and across borders, and how they change in response to our own changing immunity. Our lab also strives to mentor the next generation of researchers, fostering a collaborative, open science environment. Ultimately, we seek to bridge gaps between research and public health action, ensuring our work has meaningful, real-world impact in reducing the burden of viral diseases globally.</p>
+    </div>
+  </div>
+  <hr>
+
+  <div class="team-container">
+    <div class="row">
+      <div class="col-md-12">
+        <h6 class="double-u">The Lab</h6>
+      </div>
+    </div>
+    <div class="row">
+      {% for item in site.data.team %}
+      <div class="col-md-3 individual">
+        <img width="100" height="100" class="team-image rounded-circle" src="{{item.image | relative_url}}"
+          alt="{{item.name}}">
+        <h4 class="name">{{item.name}}</h4>
+        <p class="position"><small>{{item.designation}}</small></p>
+        <ul class="team-social">
+          {% if item.twitter %}
+          <li><a href="{{item.twitter}}"><i class="fa fa-twitter-square fa"></i></a></li>
+          {% endif %}
+          {% if item.bluesky %}
+          <li><a href="{{item.bluesky}}"><i class="fa fa-skyatlas fa"></i></a></li>
+          {% endif %}
+          {% if item.facebook %}
+          <li><a href="{{item.facebook}}"><i class="fa fa-facebook-official fa"></i></a></li>
+          {% endif %}
+          {% if item.linkedin %}
+          <li><a href="{{item.linkedin}}"><i class="fa fa-linkedin-square fa"></i></a></li>
+          {% endif %}
+          {% if item.github %}
+          <li><a href="{{item.github}}"><i class="fa fa-github-square fa"></i></a></li>
+          {% endif %}
+          {% if item.orcid %}
+          <li><a href="{{item.orcid}}"><i class="fa fa-pagelines fa"></i></a></li>
+          {% endif %}
+        </ul>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
