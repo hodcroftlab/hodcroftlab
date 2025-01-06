@@ -1,6 +1,6 @@
 
 /* Filters */
-#portfolio > .filters {
+#projects > .filters {
 	text-align: right;
 	padding: 0 20px;
 }
@@ -38,11 +38,11 @@
 
 /* Projects */
 
-.portfolio__project-wrapper {
+.projects__project-wrapper {
 	padding: 0 10px;
 }
 
-.portfolio__project {
+.projects__project {
 	position: relative;
 	height: auto;
 	padding: 0;
@@ -51,7 +51,7 @@
 	border: 10px solid transparent;
 	overflow: hidden;
 }
-.portfolio__project__preview {
+.projects__project__preview {
 	position: relative;
 	top: 0;
 	height: 300px;
@@ -60,12 +60,12 @@
 	background-size: cover;
 }
 
-.portfolio__project__preview > img {
+.projects__project__preview > img {
 	width: 100%;
 	height: auto;
 }
 
-.portfolio__project__description {
+.projects__project__description {
 	position: absolute;
 	top: 100%;
 	width: 100%;
@@ -74,7 +74,7 @@
 	background: #fff;
 }
 
-.portfolio__project__name {
+.projects__project__name {
 	font-size: 1.1em;
 	margin: 0;
 	margin-bottom: .2em;
@@ -83,21 +83,21 @@
 	color: $brand-color;
 }
 
-.portfolio__project__category {
+.projects__project__category {
 	font-size: .9em;
 	/* color: $brand-color; */
 	margin-bottom: .6em;
 	font-weight: 300;
 }
 
-.portfolio__project__preview,
-.portfolio__project__description {
+.projects__project__preview,
+.projects__project__description {
 	transition: all 600ms ease;
 }
 
-.portfolio__project:hover .portfolio__project__description {
+.projects__project:hover .projects__project__description {
 	transform: translateY(-100%);
 }
-.portfolio__project:hover .portfolio__project__preview {
+.projects__project:hover .projects__project__preview {
 	/* transform: translateY(-2.5em); */
 }
