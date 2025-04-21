@@ -29,32 +29,41 @@ desctiption: "EVE Lab is a computational biology lab that uses phylogenetics to 
     <div class="row">
       {% for item in site.data.team %}
       <div class="col-md-3 individual">
-        <img width="100" height="100" class="team-image rounded-circle" src="{{item.image | relative_url}}"
-          alt="{{item.name}}">
-        <h4 class="name">{{item.name}}</h4>
-        <p class="position"><small>{{item.designation}}</small></p>
-        <ul class="team-social">
-          {% if item.twitter %}
-          <li><a href="{{item.twitter}}"><i class="fa fa-twitter-square fa"></i></a></li>
-          {% endif %}
-          {% if item.bluesky %}
-          <li><a href="{{item.bluesky}}"><i class="fa fa-skyatlas fa"></i></a></li>
-          {% endif %}
-          {% if item.facebook %}
-          <li><a href="{{item.facebook}}"><i class="fa fa-facebook-official fa"></i></a></li>
-          {% endif %}
-          {% if item.linkedin %}
-          <li><a href="{{item.linkedin}}"><i class="fa fa-linkedin-square fa"></i></a></li>
-          {% endif %}
-          {% if item.github %}
-          <li><a href="{{item.github}}"><i class="fa fa-github-square fa"></i></a></li>
-          {% endif %}
-          {% if item.orcid %}
-          <li><a href="{{item.orcid}}"><i class="fa fa-pagelines fa"></i></a></li>
-          {% endif %}
-        </ul>
+        <a href="{{ item.link | relative_url }}" class="team-card-link">
+          <img width="100" height="100" class="team-image rounded-circle" src="{{item.image | relative_url}}"
+            alt="{{item.name}}">
+          <h4 class="name">{{item.name}}</h4>
+          <p class="position"><small>{{item.designation}}</small></p>
+          <ul class="team-social">
+            {% if item.twitter %}
+            <li><a href="{{item.twitter}}"><i class="fa fa-twitter-square fa"></i></a></li>
+            {% endif %}
+            {% if item.bluesky %}
+            <li><a href="{{item.bluesky}}"><i class="fa fa-skyatlas fa"></i></a></li>
+            {% endif %}
+            {% if item.facebook %}
+            <li><a href="{{item.facebook}}"><i class="fa fa-facebook-official fa"></i></a></li>
+            {% endif %}
+            {% if item.linkedin %}
+            <li><a href="{{item.linkedin}}"><i class="fa fa-linkedin-square fa"></i></a></li>
+            {% endif %}
+            {% if item.github %}
+            <li><a href="{{item.github}}"><i class="fa fa-github-square fa"></i></a></li>
+            {% endif %}
+            {% if item.orcid %}
+            <li><a href="{{item.orcid}}"><i class="fa fa-leaf fa"></i></a></li>
+            {% endif %}
+          </ul>
+        </a>
       </div>
       {% endfor %}
+    </div>
+  </div>
+  <div class="row mt-4 text-center">
+    <div class="col-md-12">
+      <a href="{{ '/people/' | relative_url }}" class="btn project-badge">
+        <i class="fa fa-users" style="margin-right: 0.5rem;"></i> Meet visiting & past lab members →
+      </a>
     </div>
   </div>
 </div>

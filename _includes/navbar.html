@@ -36,10 +36,13 @@
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             {% for i in item.dropdown %}
-            <a class="dropdown-item nav-link" href="{{i.link | relative_url}}"
-              >{{i.title}}</a
-            >
-            {% endfor %}
+            <a class="dropdown-item nav-link" href="{{i.link | relative_url}}">
+              {% if i.icon %}
+                <img src="{{ i.icon | relative_url }}" alt="" style="width: 1em; height: 1em; margin-right: 0.3em;" />
+              {% endif %}
+              {{ i.title }}
+            </a>
+          {% endfor %}
           </div>
         </li>
         {% else %}

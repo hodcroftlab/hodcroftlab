@@ -5,6 +5,14 @@
   github: 'https://github.com/hodcroftlab'
   bluesky: 'https://bsky.app/profile/firefoxx66.bsky.social'
   orcid: 'https://orcid.org/0000-0002-0078-2212'
+  gscholar: 'https://scholar.google.com/citations?user=ZaupG3YAAAAJ&hl=en'
+  link: /people/emma-hodcroft/
+  interests:
+    - Being engrossed in a fascinating book
+    - Airline logistics
+    - A good cup of hot tea
+    - Coaxing things to grow on my balcony
+    - Finding and enjoying delicious cheese
 
 - name: Nadia Neuner-Jehle
   designation: PhD student
@@ -12,6 +20,10 @@
   linkedin: 'https://www.linkedin.com/in/nadia-neuner-jehle'
   github: 'https://github.com/nneune'
   orcid: 'https://orcid.org/0009-0001-6829-6448'
+  link: /people/nadia-neuner-jehle/
+  interests:
+    - Incredibly tidy note-taking
+    - Becoming a Notion pro
 
 - name: Nosihle Msomi
   designation: PhD student
@@ -20,6 +32,10 @@
   linkedin: 'https://www.linkedin.com/in/nosihlesmsomi'
   github: 'https://github.com/Nosi-Msomi'
   orcid: 'https://orcid.org/0000-0003-0053-0928'
+  link: /people/nosihle-msomi/
+  interests:
+    - Becoming both a lab and computer whiz
+    - Keeping up with the latest Korean dramas
 
 - name: Keno Strotjohann
   designation: MSc student
@@ -27,3 +43,7 @@
   twitter: 'https://twitter.com/st_keno'
   github: 'https://github.com/kstrotjohann'
   orcid: 'https://orcid.org/0009-0003-3675-3039'
+  link: /people/keno-strotjohann/
+  interests:
+    - Trying to outrun his best records
+    - Collecting a variety of teas

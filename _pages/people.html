@@ -1,0 +1,37 @@
+---
+layout: page
+title: People
+permalink: /people/
+description: Meet the members of the EVE Lab!
+---
+
+<div class="container">
+  <!-- Current Members -->
+  <h3 id="members" class="mb-4">Current Members</h3>
+  <div class="row">
+    {% assign members = site.people | where: "role", "member" %}
+    {% for person in members %}
+      {% include person_card.html person=person %}
+    {% endfor %}
+  </div>
+
+  <!-- Current Visitors -->
+  <h3 id="visitors" class="mt-5 mb-4">Current Visitors</h3>
+  <div class="row">
+    {% assign visitors = site.people | where: "role", "visitor" %}
+    {% for person in visitors %}
+      {% include person_card.html person=person %}
+    {% endfor %}
+  </div>
+
+  <!-- Past Members -->
+  <h3 id="alumni" class="mt-5 mb-4">Past Members</h3>
+  <div class="row">
+    {% assign past = site.people | where: "role", "alumni" %}
+    {% for person in past %}
+      {% include person_card.html person=person %}
+    {% endfor %}
+  </div>
+
+</div>
+  

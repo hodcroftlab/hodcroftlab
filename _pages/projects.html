@@ -2,18 +2,62 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: This is an individual item from the projects.
 ---
 
-<div class="row projects-individual">
-	<div class="col-md-7 image">
-		<img src="/assets/images/projects/icons8-team-643494-unsplash.jpg" alt="{{page.title}}">
-	</div>
-	<div class="col-md-5 details">
-		<h1 class="double-u">Project Title</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente ipsa eius voluptatibus quia natus magnam suscipit vero et perspiciatis a excepturi nihil quas saepe beatae omnis, debitis est, ipsum non. </p>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa atque doloribus, quae natus repellat nobis dolorem est velit similique nesciunt, corporis praesentium necessitatibus eos enim itaque cumque soluta accusamus quisquam.</p>
-		<p><strong>Client:</strong><span> Fruit Market</span></p>
-		<p><strong>Date:</strong><span> {{"now" | date: '%b %Y'}}</span></p>
-	</div>
-</div>	
+<h1 class="double-u">Our Projects</h1>
+
+<!-- Tag Filter Controls -->
+<div class="tag-filter mb-4">
+  <strong>Filter by tag:</strong>
+  <button class="tag-btn" data-tag="all">All</button>
+  {% assign all_tags = site.projects | map: 'tags' | join: ',' | split: ',' | uniq | sort %}
+  {% for tag in all_tags %}
+    {% if tag != "" %}
+    <button class="tag-btn" data-tag="{{ tag | strip }}">{{ tag | strip }}</button>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<!-- Projects Grid -->
+<div class="row" id="project-grid">
+  {% assign sorted_projects = site.projects | sort: 'order' %}
+  {% for project in sorted_projects %}
+  <div class="col-md-4 mb-4 project-item" data-tags="{{ project.tags | join: ' ' }}">
+    <a href="{{ project.url | relative_url }}">
+      <div class="card h-100">
+        {% if project.image %}
+        <img src="{{ project.image | relative_url }}" class="card-img-top" alt="{{ project.title }}">
+        {% endif %}
+        <div class="card-body">
+          <h5 class="card-title text-dark">{{ project.title }}</h5>
+          <p class="card-text text-dark">{{ project.excerpt | markdownify | strip_html | truncate: 25 }}</p>
+          {% if project.tags %}
+          <div class="tags">
+            {% for tag in project.tags %}
+              <span class="tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    </a>
+  </div>
+  {% endfor %}
+</div>
+
+<script>
+// Simple JS to filter cards by tag
+document.querySelectorAll('.tag-btn').forEach(button => {
+  button.addEventListener('click', () => {
+    const tag = button.getAttribute('data-tag');
+    document.querySelectorAll('.project-item').forEach(item => {
+      const tags = item.getAttribute('data-tags').split(' ');
+      if (tag === 'all' || tags.includes(tag)) {
+        item.style.display = 'block';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+  });
+});
+</script>

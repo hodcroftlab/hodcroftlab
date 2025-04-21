@@ -68,3 +68,237 @@ $on-laptop:        800px;
         "custom"
 
 ;
+
+// Style for clickable team cards
+.team-card-link {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .team-card-link:hover {
+    text-decoration: none;
+  }
+
+  .page-container img.rounded-circle {
+    max-width: 100%;
+    height: auto;
+    border: 3px solid #eee;
+  }
+
+// social icon spacing 
+/* Base style (used on About page) */
+.team-social {
+    list-style: none;
+    padding: 0;
+    margin-top: 0.5rem;
+  }
+  
+  .team-social li {
+    display: inline-block;
+    font-size: 1rem; /* default smaller size */
+    margin-right: 0.4rem;
+  }
+  
+  /* Profile page override */
+  .profile-social {
+    display: flex;
+    gap: 0.75rem;
+    margin-top: 1rem;
+  }
+  
+  .profile-social li {
+    font-size: 1.6rem;
+  }
+
+// interests styling
+.interests-list {
+    list-style-type: disc;
+    padding-left: 1.2rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+  }
+  
+// collaborations tags styling
+.tag-filter {
+    margin-bottom: 1rem;
+  }
+  
+  .tag-btn {
+    background: #eee;
+    border: none;
+    margin: 0.25rem;
+    padding: 0.4rem 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background 0.2s;
+  }
+  
+  .tag-btn:hover {
+    background: #ddd;
+  }
+  
+  .tags {
+    margin-top: 0.5rem;
+  }
+  
+  .tags .tag {
+    display: inline-block;
+    background-color: #d1ecf1;
+    color: #0c5460;
+    font-size: 0.75rem;
+    padding: 0.2rem 0.5rem;
+    margin: 0.2rem 0.1rem 0 0;
+    border-radius: 3px;
+  }
+  
+  .details p span {
+    font-weight: 500;
+    color: #444;
+  }
+  
+  .fa-calendar {
+    color: #888;
+    font-size: 1rem;
+    vertical-align: middle;
+  }
+  
+
+  //project button styling
+  .profile-projects {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .profile-projects .btn {
+    font-size: 0.85rem;
+    white-space: nowrap;
+  }
+
+  .project-badge {
+    display: inline-flex;
+    align-items: center;
+    font-size: 0.85rem;
+    background-color: #eaf2f8; // light blue background
+    color: #003366;            // dark navy text
+    border: 1px solid #b3cce6; // soft border
+    padding: 0.3rem 0.6rem;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background 0.2s ease;
+  }
+  
+  .project-badge:hover {
+    background-color: #d6e6f3;
+    text-decoration: none;
+    color: #002a5c;
+  }
+  
+  //project and collab invovlement styling
+  .involved-people {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .involved-people li {
+    margin-bottom: 0.4rem;
+  }
+  
+  .involved-people a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #0054a6;
+  }
+  
+  //project icons
+  .project-icon {
+    height: 1em;
+    width: auto;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+  }
+  .project-title-icon {
+    height: 1.2em;
+    width: auto;
+    margin-right: 0.5rem;
+    vertical-align: middle;
+  }
+
+  //people page
+  .person-card {
+    transition: box-shadow 0.2s ease;
+  }
+  
+  .person-card:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    text-decoration: none;
+  }
+  
+  .person-card .fa {
+    color: #444;
+    transition: color 0.2s ease;
+  }
+  
+  .person-card .fa:hover {
+    color: #0077b5; /* LinkedIn blue or pick your own */
+  }
+  
+  .person-quote-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.95);
+    color: #333;
+    font-style: italic;
+    font-size: 0.85rem;
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    border-radius: 0.25rem;
+  }
+  
+  .person-card:hover .person-quote-hover {
+    opacity: 1;
+    z-index: 2;
+  }
+  
+  //logos on the 'clients' carousel (which is now collaborations)
+  .collaboration-logo {
+    height: 100px;
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  // scale project cards on index.html
+  .scaled-project-card {
+    transform: scale(0.8);
+    transform-origin: center;
+  }
+  
+  // styling for lab dates on people pages
+  .lab-dates {
+    font-size: 0.95rem;
+    margin-top: 0.5em;
+    color: #555;
+  }
+  
+  // styling for orcid button on people pages
+  .orcid-button-container {
+    margin-top: 2rem;
+    .btn {
+      font-size: 1rem;
+      padding: 0.5rem 1rem;
+    }
+  }
+  

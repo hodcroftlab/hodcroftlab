@@ -1,0 +1,117 @@
+---
+layout: default
+---
+
+{% assign person = site.data.team | where: "name", page.title | first %}
+
+<div class="page-container">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        {% include breadcrumbs.html %}
+      </div>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="row rev">
+      <div class="col-md-4">
+        {% if page.image %}
+        <img
+          src="{{ page.image | relative_url }}"
+          alt="{{ page.title }}"
+          class="img-fluid rounded-circle mb-4"
+        />
+        {% endif %}
+        <ul class="team-social profile-social">
+          {% if person.twitter %}
+          <li><a href="{{ person.twitter }}"><i class="fa fa-twitter-square fa"></i></a></li>
+          {% endif %}
+          {% if person.github %}
+          <li><a href="{{ person.github }}"><i class="fa fa-github-square fa"></i></a></li>
+          {% endif %}
+          {% if person.linkedin %}
+          <li><a href="{{ person.linkedin }}"><i class="fa fa-linkedin-square fa"></i></a></li>
+          {% endif %}
+          {% if person.bluesky %}
+          <li><a href="{{ person.bluesky }}"><i class="fa fa-skyatlas fa"></i></a></li>
+          {% endif %}
+          {% if person.orcid %}
+          <li><a href="{{ person.orcid }}"><i class="fa fa-leaf fa"></i></a></li>
+          {% endif %}
+        </ul>
+      </div>
+
+      <div class="col-md-8">
+        <h1 class="double-u">{{ page.title }}</h1>
+        {% if page.position %}
+        <p class="lead text-muted"><strong>{{ page.position }}</strong></p>
+        {% endif %}
+
+        <!-- lab dates section-->
+        <p class="lab-dates">
+          <i class="fa fa-calendar"></i>
+          {% if page.lab_start %}
+            {% if page.lab_end == nil or page.lab_end == "" or page.lab_end == "Present" %}
+              <strong>In EVE since:</strong> {{ page.lab_start }}
+            {% else %}
+              <strong>In EVE:</strong> {{ page.lab_start }} – {{ page.lab_end }}
+            {% endif %}
+          {% endif %}
+        </p>
+        
+        
+        
+        
+        <article class="rev">
+          {{ content }}
+        </article>
+        {% if person.interests %}
+          <h5 class="mt-4">Interests</h5>
+          <ul class="interests-list">
+            {% for interest in person.interests %}
+            <li>{{ interest }}</li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+
+        {% if page.projects %}
+        <h5 class="mt-4">Projects I'm involved in:</h5>
+        <div class="profile-projects mb-3">
+          {% for proj in page.projects %}
+          <a class="btn project-badge mb-2 mr-2" href="{{ proj.link | relative_url }}">
+            {% if proj.icon %}
+              <img src="{{ proj.icon | relative_url }}" alt="" class="project-icon" />
+            {% endif %}
+            <span>{{ proj.title }}</span>
+          </a>
+          {% endfor %}
+        </div>
+        {% endif %}
+
+        {% if person.orcid or person.gscholar %}
+        <div class="mt-4 text-center">
+          <p class="mb-2"><strong>See my publications:</strong></p>
+          <div class="d-flex justify-content-center flex-wrap gap-2">
+            {% if person.orcid %}
+              <a href="{{ person.orcid }}" class="btn btn-outline-info" style="color: #2c7eca; margin-right: 10px;" target="_blank" rel="noopener noreferrer">
+                <i class="fa fa-leaf"></i> ORCID
+              </a>
+            {% endif %}
+            {% if person.gscholar %}
+              <a href="{{ person.gscholar }}" class="btn btn-outline-info" style="color: #2c7eca;" target="_blank" rel="noopener noreferrer">
+                <i class="fa fa-graduation-cap"></i> Google Scholar
+              </a>
+            {% endif %}
+          </div>
+        </div>
+      {% endif %}
+      
+        
+      
+
+
+      </div>
+    </div>
+  </div>
+</div>

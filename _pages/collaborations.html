@@ -1,0 +1,63 @@
+---
+layout: page
+title: Collaborations
+permalink: /collaborations/
+---
+
+<h1 class="double-u">Our Collaborations</h1>
+
+<!-- Tag Filter Controls -->
+<div class="tag-filter mb-4">
+  <strong>Filter by tag:</strong>
+  <button class="tag-btn" data-tag="all">All</button>
+  {% assign all_tags = site.collaborations | map: 'tags' | join: ',' | split: ',' | uniq | sort %}
+  {% for tag in all_tags %}
+    {% if tag != "" %}
+    <button class="tag-btn" data-tag="{{ tag | strip }}">{{ tag | strip }}</button>
+    {% endif %}
+  {% endfor %}
+</div>
+
+<!-- Collaboration Grid -->
+<div class="row" id="collab-grid">
+  {% assign sorted_collabs = site.collaborations | sort: 'title' %}
+  {% for collab in sorted_collabs %}
+  <div class="col-md-4 mb-4 collab-item" data-tags="{{ collab.tags | join: ' ' }}">
+    <a href="{{ collab.url | relative_url }}">
+      <div class="card h-100">
+        {% if collab.image %}
+        <img src="{{ collab.image | relative_url }}" class="card-img-top" alt="{{ collab.title }}">
+        {% endif %}
+        <div class="card-body">
+          <h5 class="card-title">{{ collab.title }}</h5>
+          <p class="card-text">{{ collab.excerpt | markdownify | strip_html | truncate: 120 }}</p>
+          {% if collab.tags %}
+          <div class="tags">
+            {% for tag in collab.tags %}
+              <span class="tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+      </div>
+    </a>
+  </div>
+  {% endfor %}
+</div>
+
+<script>
+// Simple JS to filter cards by tag
+document.querySelectorAll('.tag-btn').forEach(button => {
+  button.addEventListener('click', () => {
+    const tag = button.getAttribute('data-tag');
+    document.querySelectorAll('.collab-item').forEach(item => {
+      const tags = item.getAttribute('data-tags').split(' ');
+      if (tag === 'all' || tags.includes(tag)) {
+        item.style.display = 'block';
+      } else {
+        item.style.display = 'none';
+      }
+    });
+  });
+});
+</script>

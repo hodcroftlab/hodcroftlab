@@ -1,0 +1,30 @@
+<section id="collaborations" class="main-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="section-title text-center rev">Our Collaborations</h3>
+        </div>
+      </div>
+  
+      <div class="projects__project-wrapper row">
+        {% assign collaborations = site.collaborations | sort: 'title' %}
+        {% for collab in collaborations %}
+        <div class="projects__project col-xs-12 col-sm-6 col-lg-4 text-center rev">
+          <a href="{{ collab.url | relative_url }}">
+            <div class="projects__project__preview" style="background-image: url({{ collab.image | relative_url }})">
+            </div>
+            <div class="projects__project__description">
+              <div class="info-wrapper">
+                <h3 class="projects__project__name">{{ collab.title }}</h3>
+                {% if collab.category %}
+                  <p class="projects__project__category">{{ collab.category }}</p>
+                {% endif %}
+              </div>
+            </div>
+          </a>
+        </div>
+        {% endfor %}
+      </div>
+    </div>
+  </section>
+  

@@ -3,31 +3,39 @@
   
 - title: About
   link: '/about/'
-
-- title: Contact
-  link: '/contact/'
   
 - title: Blog
   link: '/blog/'
-  
-- title: Categories
-  link: '/categories/'
 
 - title: Projects
   dropdown:
-    - title: Testimonials
-      link: /testimonials/
-    - title: ESCAPE
-      link: /projects/
-    - title: ENPEN
-      link: /projects/
-    - title: Center for Pathogen Bioinformatics
-      link: /projects/
+    - title: Enterovirus Epidemiology & Evolution
+      link: /projects/evs/
+      icon: /assets/images/icons/eva71.png
+    - title: Seasonal Coronavirus Epidemiology & Evolution
+      link: /projects/hcovs/
+      icon: /assets/images/icons/sc2.png
+    - title: Enterovirus D68 Projects
+      link: /projects/evd68/
+      icon: /assets/images/icons/evd68.png
     - title: Basel Wastewater
+      link: /projects/basel-wastewater/
+      icon: /assets/images/icons/toilet.png
+    - title: View all
       link: /projects/
+
+
+- title: Collaborations
+  dropdown:
+    - title: ESCAPE
+      link: /collaborations/escape/
+    - title: ENPEN
+      link: /collaborations/enpen/
+    - title: Center for Pathogen Bioinformatics
+      link: /collaborations/cpb/
     - title: Pathoplexus & Loculus
-      link: /projects/
+      link: /collaborations/pathoplexus/
     - title: ARTIC 2.0
-      link: /projects/
-
-
+      link: /collaborations/artic2/
+    - title: View all
+      link: /collaborations/

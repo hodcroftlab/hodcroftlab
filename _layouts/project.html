@@ -1,0 +1,44 @@
+---
+layout: default
+title: Projects
+---
+
+<div class="page-container">
+	<div class="container">
+		<div class="row projects-individual">
+			<div class="col-md-7 image">
+				{% if page.image %}
+					<img src="{{ page.image }}" alt="{{page.title}}">
+				{% endif %}
+			</div>
+			<div class="col-md-5 details">
+				<h1 class="double-u d-flex align-items-center gap-2">
+					{% if page.icon %}
+					  <img src="{{ page.icon | relative_url }}" alt="{{ page.title }} icon" class="project-title-icon" />
+					{% endif %}
+					{{ page.title }}
+				  </h1>
+				<p>
+				{{ content }}
+				</p>
+	
+				<!-- <p><strong>Date:</strong><span> {{"now" | date: '%b %Y'}}</span></p> -->
+				{% if page.people %}
+				<h5 class="mt-4">EVE Team Involved</h5>
+				<ul class="involved-people">
+					{% for person_id in page.people %}
+					{% assign person = site.people | where: "slug", person_id | first %}
+					{% if person %}
+						<li>
+						<a href="{{ person.url | relative_url }}">
+							{{ person.title }}
+						</a>
+						</li>
+					{% endif %}
+					{% endfor %}
+				</ul>
+				{% endif %}
+			</div>
+		</div>	
+	</div>
+</div>

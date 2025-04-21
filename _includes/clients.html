@@ -1,17 +1,21 @@
-<section id="clients" class="bg-white">
+<section id="collaborations" class="bg-white">
 	<div class="container">
-		<div class="row">
-			<div class="col-md-12">
-				<h3 class="section-title text-center rev">Our Clients</h3>
-			</div>
+	  <div class="row">
+		<div class="col-md-12">
+		  <h3 class="section-title text-center rev">Our Collaborations</h3>
 		</div>
-
-		<div class="owl-carousel owl-theme carousel-3 rev">
-			{% for item in site.data.clients %}
-			<div class="item">
-				<img height="100" width="100%" src="{{item.image | relative_url}}" alt="{{item.title}}" title="{{item.title}}">
-			</div>
-			{% endfor %}
-		</div>
+	  </div>
+  
+	  <div class="owl-carousel owl-theme carousel-3 rev">
+		{% assign collaborations = site.collaborations | where_exp: "item", "item.logo" %}
+		{% for item in collaborations %}
+		  <div class="item text-center">
+			<a href="{{ item.url | relative_url }}">
+				<img src="{{ item.logo | relative_url }}" alt="{{ item.title }}" title="{{ item.title }}" class="collaboration-logo">
+			</a>
+		  </div>
+		{% endfor %}
+	  </div>
 	</div>
-</section>
+  </section>
+  
