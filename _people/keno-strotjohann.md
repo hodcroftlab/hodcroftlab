@@ -3,7 +3,7 @@ layout: person
 title: Keno Strotjohann
 position: PhD student
 role: member
-image: /assets/images/keno_strotjohann.png
+image: /assets/images/people/keno_strotjohann.png
 permalink: /people/keno-strotjohann
 projects:
   - title: Enterovirus Epidemiology & Evolution

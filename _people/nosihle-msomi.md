@@ -3,7 +3,7 @@ layout: person
 title: Nosihle Msomi
 position: PhD student
 role: member
-image: /assets/images/nosihle-msomi.png
+image: /assets/images/people/nosihle-msomi.png
 permalink: /people/nosihle-msomi
 projects:
   - title: Enterovirus Epidemiology & Evolution
