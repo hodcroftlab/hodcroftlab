@@ -64,6 +64,14 @@ Some websites suggest to use `bundle exec jekyll serve` but this has never worke
 
 To view the site, navigate to [http://127.0.0.1:4000](http://127.0.0.1:4000) to view. Note you can only view the site locally while this is running. To stop running, use `CTRL+C`. To see changes, you have to stop & rebuild!
 
+### (Bonus) 🔄️ Step 6: Build Before Pushing!
+
+Remember, to actually change the website, you have to generate the new html files - so you **should always build before pushing to Github**, or you change won't show!
+
+This is also a good reminder to always check your changes have worked the way you thought they should locally, before pushing!
+
+If making small edits, as long as you've checked locally, it's ok to push directly to `master`. However if proposing larger changes, make them on a branch and submit a PR, so others can check it locally & ensure they like the change (and that it works as expected) before making changes to the website.
+
 
 ## How to Edit Jekyll Sites
 
@@ -81,7 +89,7 @@ Some examples:
 
 Information on people is generally in `_data/team.yml` and `_people/<name>.md`- these two are then pulled together to make everyone's individual page in `_layouts/person.html`. However, this data (at least the data from `team.yml`) is also used on `index.html` (via `_includes/team-preview.html`) and `_pages/about.html` to make the little rows of circle-faces.
 
-Projects and collaborations are easier - the page format is in `_layouts/collaboration.html` and `_layouts/project.html` and the information is on individual pages in `_collaborations/` and `_projects/`. (The layout for displaying all of them is in `_pages/collaborations.html` and `_pages/projects.html`.) Note that we specify what kind of layout the project and collaboration pages should use in the header (ex: `layout: project`). 
+Projects and collaborations are easier - the page format is in `_layouts/collaboration.html` and `_layouts/project.html` and the information is on individual pages in `_collaborations/` and `_projects/`. (The layout for displaying all of them together in the 'View All' pages is in `_pages/collaborations.html` and `_pages/projects.html`.) Note that we specify what kind of layout the project and collaboration pages should use in the header (ex: `layout: project`). 
 
 ### Ok, this seems complicated. How do I change something?
 
@@ -114,6 +122,8 @@ There are two places to update information about a person:
 - Text that you write about yourself, as the main content
 
 To change your photo, the easiest thing to do is to just replace the photo of yourself `assets/images/people` and ensure it's named the same! Ensure your photo is square (or it won't crop correctly) and isn't huge (will load slowly). Resize if you need!
+
+To change your 'socials' (also ORCiD/GScholar) you can generally just add a new entry to your section of `_data/team.yml` - currently supported are Twitter, Github, Bluesky, ORCiD, Google Scholar (`gscholar`), and LinkedIn. Talk to Emma about adding any others!
 
 ## To Do list:
 
