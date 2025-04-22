@@ -17,7 +17,7 @@ This guide will help you set up the EVE Lab website on your own computer using [
 Open your terminal and create a new environment called `jekyll-lab` (or any name you like) and activate:
 
 ```bash
-micromamba create -n jekyll-lab ruby=3.4.1
+micromamba create -n jekyll-lab -c conda-forge ruby=3.4.1
 micromamba activate jekyll-lab
 ```
 
