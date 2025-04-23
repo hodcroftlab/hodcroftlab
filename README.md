@@ -79,7 +79,7 @@ If making small edits, as long as you've checked locally, it's ok to push direct
 
 Editing Jekyll sites takes some getting used to. The way they work is that base files are built and generate more 'recognizable' HTML files (and accompanying files) that are what are actually served as a website. These 'final' files are rebuilt every time you build the site, but stay the same between builds (hence why this is called a 'static' website - no information is generated 'only the fly').
 
-In this site, the 'build' files are in the folder `_avocado` (the name of the original theme). **Never modify files in `_avocado` to try and make a change!** It will simply be overwritten the next time you build the site!
+In this site, the 'build' files are in the folder `docs` (the name of the original theme). **Never modify files in `docs` to try and make a change!** It will simply be overwritten the next time you build the site!
 
 ### How things are laid out
 

@@ -101,7 +101,7 @@ compress_html:
 
 ####################################################################################################
 
-destination: _avocado
+destination: docs
 
 exclude:
   - .git
