@@ -27,6 +27,8 @@
 
 - title: Collaborations
   dropdown:
+    - title: VIM
+      link: /collaborations/vim/
     - title: ESCAPE
       link: /collaborations/escape/
     - title: ENPEN
