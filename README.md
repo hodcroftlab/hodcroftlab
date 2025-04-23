@@ -62,7 +62,7 @@ jekyll serve
 
 Some websites suggest to use `bundle exec jekyll serve` but this has never worked for Emma.
 
-To view the site, navigate to [http://127.0.0.1:4000](http://127.0.0.1:4000) to view. Note you can only view the site locally while this is running. To stop running, use `CTRL+C`. To see changes, you have to stop & rebuild!
+To view the site, navigate to [http://127.0.0.1:4000/hodcroftlab](http://127.0.0.1:4000/hodcroftlab) to view. Note you can only view the site locally while this is running. To stop running, use `CTRL+C`. To see changes, you have to stop & rebuild!
 
 ### (Bonus) 🔄️ Step 6: Build Before Pushing!
 
