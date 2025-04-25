@@ -1,6 +1,6 @@
 - name: Emma Hodcroft
   designation: Professor, Principal Investigator
-  image: /assets/images/people/emma_hodcroft.jpg
+  image: /assets/images/people/emma-hodcroft.jpg
   twitter: 'https://twitter.com/firefoxx66'
   github: 'https://github.com/hodcroftlab'
   bluesky: 'https://bsky.app/profile/firefoxx66.bsky.social'
@@ -16,7 +16,7 @@
 
 - name: Nadia Neuner-Jehle
   designation: PhD student
-  image: /assets/images/people/nadia_neuner-jehle.png
+  image: /assets/images/people/nadia-neuner-jehle.png
   linkedin: 'https://www.linkedin.com/in/nadia-neuner-jehle'
   github: 'https://github.com/nneune'
   orcid: 'https://orcid.org/0009-0001-6829-6448'
@@ -39,7 +39,7 @@
 
 - name: Keno Strotjohann
   designation: PhD student
-  image: /assets/images/people/keno_strotjohann.png
+  image: /assets/images/people/keno-strotjohann.png
   twitter: 'https://twitter.com/st_keno'
   github: 'https://github.com/kstrotjohann'
   orcid: 'https://orcid.org/0009-0003-3675-3039'
