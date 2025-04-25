@@ -3,6 +3,7 @@ layout: person
 title: Emma Hodcroft
 position: Assistant Prof, Group Leader
 role: member
+order: 1
 image: /assets/images/people/emma-hodcroft.jpg
 permalink: /people/emma-hodcroft/
 quote: "I just don't want to look back and think, I could have eaten that"

@@ -3,6 +3,7 @@ layout: person
 title: Kai Wanner
 position: MSc student
 role: member
+order: 5
 image: /assets/images/people/kai-wanner.jpg
 permalink: /people/kai-wanner/
 quote: "Hallo!"
