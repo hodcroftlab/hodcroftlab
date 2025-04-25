@@ -38,7 +38,7 @@
     - Keeping up with the latest Korean dramas
 
 - name: Keno Strotjohann
-  designation: MSc student
+  designation: PhD student
   image: /assets/images/people/keno_strotjohann.png
   twitter: 'https://twitter.com/st_keno'
   github: 'https://github.com/kstrotjohann'
@@ -47,3 +47,12 @@
   interests:
     - Trying to outrun his best records
     - Collecting a variety of teas
+
+- name: Kai Wanner
+  designation: MSc student
+  image: /assets/images/people/kai-wanner.jpg
+  link: /people/kai-wanner/
+  interests:
+    - Learning about EVs
+    - Rocking his MSc studies
+  
