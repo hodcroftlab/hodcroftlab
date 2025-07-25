@@ -69,6 +69,33 @@ $on-laptop:        800px;
 
 ;
 
+.collab-float-img {
+  float: left;
+  margin: 0 1.5rem 1rem 0;
+  max-width: 350px;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.project-image-float {
+  float: right;
+  margin: 0 0 1em 1.5em;
+  max-width: 40%;
+  height: auto;
+  border-radius: 8px;
+}
+
+
+// style headings for # and ##
+.page-container h1,
+.page-container h2,
+.page-container h3 {
+  text-transform: none;
+  letter-spacing: normal;
+}
+
+
 // Style for clickable team cards
 .team-card-link {
     color: inherit;
@@ -279,6 +306,13 @@ $on-laptop:        800px;
     margin: 0 auto;
     display: block;
   }
+  
+.project-content p,
+.collaboration-content p {
+  font-size: 1.1rem !important;
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
   
   // scale project cards on index.html
   .scaled-project-card {
