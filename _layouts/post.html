@@ -25,8 +25,16 @@ This layout is used for posts. Changing anything here will affect all posts(not 
                 <span>
                   <i class="fa fa-calendar" aria-hidden="true"></i> {{page.date | date_to_string }}&nbsp;
                 </span>
+                {% assign author_slug = page.author %}
+                {% assign author_obj = site.people | where: "slug", author_slug | first %}
+
                 <span>
-                  <i class="fa fa-user" aria-hidden="true"></i> {{page.author | capitalize}}&nbsp;
+                  <i class="fa fa-user" aria-hidden="true"></i>
+                  {% if author_obj %}
+                    <a href="{{ author_obj.url | relative_url }}">{{ author_obj.title }}</a>
+                  {% else %}
+                    {{ author_slug | replace: '-', ' ' | capitalize }}
+                  {% endif %}
                 </span>
                 <span>
                   <i class="fa fa-clock-o" aria-hidden="true"></i> {% include reading-time.html %}
@@ -39,7 +47,9 @@ This layout is used for posts. Changing anything here will affect all posts(not 
           <div class="col-md-12">
 
             <article>
-              {% include toc.html html=content class="toc.rev.clearfix" %}
+              {% unless page.toc == false %}
+                {% include toc.html html=content class="toc.rev.clearfix" %}
+              {% endunless %}
               {{content}}
             </article>
             {% if site.share %}

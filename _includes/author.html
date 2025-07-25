@@ -1,27 +1,19 @@
-{% if page.author %}
-<div class="author rev">
-	<div class="row">
-		<div class="col-md-3">
-			<img class="author-image" src="{{site.author.image | relative_url}}" alt="{{site.author.name}}">
-		</div>
-		<div class="col-md-9">
-			<h5>{{site.author.name }}</h5>
-			<p>{{site.author.bio}}</p>
-			<ul>
-				{% if site.author.facebook %}
-				<li><a target="_blank" href="{{site.author.facebook}}"><i class="fa fa-facebook-official"
-							aria-hidden="true"></i></a></li>
-				{% endif %}
-				{% if site.author.twitter %}
-				<li><a target="_blank" href="{{site.author.twitter}}"><i class="fa fa-twitter-square"
-							aria-hidden="true"></i></a></li>
-				{% endif %}
-				{% if site.author.quora %}
-				<li><a target="_blank" href="{{site.author.quora}}"><i class="fa fa-quora" aria-hidden="true"></i></a>
-				</li>
-				{% endif %}
-			</ul>
-		</div>
-	</div>
+{% assign author_slug = page.author %}
+{% assign author = site.people | where: "slug", author_slug | first %}
+
+{% if author %}
+<div class="author-box d-flex gap-5 align-items-start mt-5 p-3 border rounded shadow-sm">
+  <img src="{{ author.image | relative_url }}" alt="{{ author.title }}" class="rounded-circle me-4" style="width: 80px; height: 80px; object-fit: cover; margin-right: 1.5rem;">
+  <div>
+    <h5 class="mb-1">
+      <a href="{{ author.url | relative_url }}">{{ author.title }}</a>
+    </h5>
+    {% if author.position %}
+      <p class="text-muted mb-2">{{ author.position }}</p>
+    {% endif %}
+    {% if author.quote %}
+      <p class="fst-italic small">“{{ author.quote }}”</p>
+    {% endif %}
+  </div>
 </div>
 {% endif %}
