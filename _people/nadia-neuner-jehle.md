@@ -5,7 +5,7 @@ position: PhD student
 role: member
 order: 2
 image: /assets/images/people/nadia-neuner-jehle.png
-permalink: /people/nadia-neuner-jehle
+permalink: /people/nadia-neuner-jehle/
 projects:
   - title: Enterovirus Epidemiology & Evolution
     link: /projects/evs/
