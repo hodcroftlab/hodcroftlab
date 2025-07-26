@@ -10,6 +10,7 @@ tags:
   - Software
   - Preparedness
   - Bioinformatics
+date: 2025-07-25
 ---
 
 [The Centre for Pathogen Bioinformatics](https://www.sib.swiss/centre-for-pathogen-bioinformatics) (CPB) is a multi-site initiative led by the Swiss Institute of Bioinformatics (SIB), established in late 2024 to consolidate Switzerland's computational expertise in pathogen surveillance and molecular data analysis. Positioned at the intersection of public health and research, CPB offers advanced services in pathogen bioinformatics - such as data hosting, processing, genomic epidemiology, and expert consultancy - to the Swiss Federal Office of Public Health and global partners.

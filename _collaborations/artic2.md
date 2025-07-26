@@ -11,6 +11,7 @@ tags:
   - Community
   - Software
   - International
+date: 2025-07-25
 ---
 
 "Global Genomics, Local Impact"

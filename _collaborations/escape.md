@@ -11,6 +11,7 @@ tags:
   - Community
   - Surveillance
   - Europe
+date: 2025-07-25
 ---
 
 [ESCAPE](https://www.escapepandemics.com/) (Efficient and rapidly SCAlable EU‑wide evidence‑driven Pandemic response plans through dynamic Epidemic data assimilation) is a Horizon Europe‑funded interdisciplinary research initiative running from January 2023 to December 2026.
