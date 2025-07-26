@@ -1,0 +1,71 @@
+---
+layout: none
+permalink: /feed.xml
+---
+
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:media="http://search.yahoo.com/mrss/">
+
+  <generator uri="https://jekyllrb.com/" version="3.9.4">Jekyll</generator>
+
+  <link href="{{ site.url }}{{ site.baseurl }}/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="{{ site.url }}{{ site.baseurl }}/" rel="alternate" type="text/html" />
+
+  {% assign latest_post = site.posts | sort: "date" | last %}
+  <updated>{{ latest_post.date | date_to_xmlschema }}</updated>
+
+  <id>{{ site.url }}{{ site.baseurl }}/feed.xml</id>
+  <title type="html">{{ site.title }}</title>
+  <subtitle>{{ site.description }}</subtitle>
+
+  <author>
+    <name>{{ site.author.name }}</name>
+  </author>
+
+  {% for post in site.posts %}
+  <entry>
+    <title type="html">{{ post.title | xml_escape }}</title>
+
+    <link href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" rel="alternate" type="text/html" title="{{ post.title | xml_escape }}" />
+    <id>{{ site.url }}{{ site.baseurl }}{{ post.url }}</id>
+
+    <published>{{ post.date | date_to_xmlschema }}</published>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+
+    <content type="html" xml:base="{{ site.url }}{{ site.baseurl }}{{ post.url }}">
+      <![CDATA[
+        {{ post.content }}
+      ]]>
+    </content>
+
+	{% assign person = site.people | where: "slug", post.author | first %}
+	{% if person %}
+	<author>
+		<name>{{ person.title }}</name>
+		<uri>{{ site.url }}{{ site.baseurl }}{{ person.url }}</uri>
+	</author>
+	{% else %}
+	<author>
+		<name>{{ post.author }}</name>
+	</author>
+	{% endif %}
+
+    {% if post.tags %}
+      {% for tag in post.tags %}
+        <category term="{{ tag }}" />
+      {% endfor %}
+    {% endif %}
+
+    {% if post.image %}
+      <media:thumbnail url="{{ site.url }}{{ site.baseurl }}{{ post.image }}" />
+      <media:content medium="image" url="{{ site.url }}{{ site.baseurl }}{{ post.image }}" />
+    {% endif %}
+
+    {% if post.excerpt %}
+      <summary type="html"><![CDATA[{{ post.excerpt | strip_html | truncatewords: 50 }}]]></summary>
+    {% endif %}
+  </entry>
+  {% endfor %}
+
+</feed>

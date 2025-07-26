@@ -112,10 +112,10 @@ exclude:
 # These plugins are supported by github by default and can be installed locally using ruby gems
 plugins:
   - jekyll-sitemap # Adds sitemap to the website at /sitemap.xml
-  - jekyll-feed # Adds feed to the website at /feed.xml
   - jekyll-paginate # Used for sorting posts by page numbers.
   - jekyll-seo-tag # Adds all the important SEO meta tags by default.
   - jekyll-last-modified-at # Adds last modified date to posts
+#  - jekyll-feed # Adds feed to the website at /feed.xml
 
 seo:
   date_modified: last_modified_at
