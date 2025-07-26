@@ -27,7 +27,7 @@
     <link rel="prerender" href="{{'/contact/' | relative_url}}" />
     <link rel="prerender" href="{{'/about/' | relative_url}}" />
     <link rel="prerender" href="{{'/blog/' | relative_url}}" />
-    {% endif %} {% seo %} {% if page.layout != 'post' %}
+    {% endif %}{% assign page_date = page.date | default: page.last_modified_at %} {% seo date=page_date %} {% if page.layout != 'post' %}
     <meta property="og:image" content="{{site.url}}{{site.default-image}}" />
     {% endif %}
 
