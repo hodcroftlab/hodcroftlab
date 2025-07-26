@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.4">Jekyll</generator><link href="http://localhost:4000/hodcroftlab/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/hodcroftlab/" rel="alternate" type="text/html" /><updated>2025-07-26T16:49:38+02:00</updated><id>http://localhost:4000/hodcroftlab/feed.xml</id><title type="html">EVE</title><subtitle>EVE - Epidemiology and Virus Evolution - the Hodcroft lab</subtitle><author><name>Emma Hodcroft</name></author><entry><title type="html">ARTIC2 Open Position</title><link href="http://localhost:4000/hodcroftlab/blog/ARTIC2-open-position/" rel="alternate" type="text/html" title="ARTIC2 Open Position" /><published>2025-07-25T00:00:00+02:00</published><updated>2025-07-26T12:45:51+02:00</updated><id>http://localhost:4000/hodcroftlab/blog/ARTIC2-open-position</id><content type="html" xml:base="http://localhost:4000/hodcroftlab/blog/ARTIC2-open-position/"><![CDATA[<h2 id="new-opportunity-to-join-pathoplexus-loculus--artic-2-as-post-doc-or-software-engineer">New Opportunity to Join Pathoplexus, Loculus &amp; ARTIC 2 as Post-Doc or Software Engineer</h2>
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:media="http://search.yahoo.com/mrss/">
+
+  <generator uri="https://jekyllrb.com/" version="3.9.4">Jekyll</generator>
+
+  <link href="http://localhost:4000/hodcroftlab/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="http://localhost:4000/hodcroftlab/" rel="alternate" type="text/html" />
+
+  
+  <updated>2025-07-25T00:00:00+02:00</updated>
+
+  <id>http://localhost:4000/hodcroftlab/feed.xml</id>
+  <title type="html">EVE</title>
+  <subtitle>EVE - Epidemiology and Virus Evolution - the Hodcroft lab</subtitle>
+
+  <author>
+    <name>Emma Hodcroft</name>
+  </author>
+
+  
+  <entry>
+    <title type="html">ARTIC2 Open Position</title>
+
+    <link href="http://localhost:4000/hodcroftlab/blog/ARTIC2-open-position/" rel="alternate" type="text/html" title="ARTIC2 Open Position" />
+    <id>http://localhost:4000/hodcroftlab/blog/ARTIC2-open-position/</id>
+
+    <published>2025-07-25T00:00:00+02:00</published>
+    <updated>2025-07-25T00:00:00+02:00</updated>
+
+    <content type="html" xml:base="http://localhost:4000/hodcroftlab/blog/ARTIC2-open-position/">
+      <![CDATA[
+        <h2 id="new-opportunity-to-join-pathoplexus-loculus--artic-2-as-post-doc-or-software-engineer">New Opportunity to Join Pathoplexus, Loculus &amp; ARTIC 2 as Post-Doc or Software Engineer</h2>
 
 <p>Are you excited by the idea of building global infrastructure to make pathogen sequencing more accessible, interpretable, and equitable? The <a href="https://www.swisstph.ch/en/about/mpi/epidemiology-and-viral-evolution">Epidemiology and Virus Evolution (EVE) Group</a> at the Swiss Tropical and Public Health Institute (Swiss TPH) is offering a unique opportunity to work at the intersection of world-leading efforts:</p>
 
@@ -28,4 +60,34 @@ oth positions require a strong coding background (though more experience is expe
 <p>For informal questions (not applications) please use applications[at]hodcroft.com</p>
 
 <p>This job is onsite in Basel, Switzerland - 80-100% - ideally starting this year or early 2026, fixed-term for 2 years. 
-We welcome diverse and international applicants!</p>]]></content><author><name>emma-hodcroft</name></author><category term="work" /><category term="projects" /><summary type="html"><![CDATA[New Opportunity to Join Pathoplexus, Loculus &amp; ARTIC 2 as Post-Doc or Software Engineer]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/hodcroftlab/assets/images/artic2-job-header.png" /><media:content medium="image" url="http://localhost:4000/hodcroftlab/assets/images/artic2-job-header.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+We welcome diverse and international applicants!</p>
+
+      ]]>
+    </content>
+
+	
+	
+	<author>
+		<name>Emma Hodcroft</name>
+		<uri>http://localhost:4000/hodcroftlab/people/emma-hodcroft/</uri>
+	</author>
+	
+
+    
+      
+    
+
+    
+      <media:thumbnail url="http://localhost:4000/hodcroftlab/assets/images/artic2-job-header.png" />
+      <media:content medium="image" url="http://localhost:4000/hodcroftlab/assets/images/artic2-job-header.png" />
+    
+
+    
+      <summary type="html"><![CDATA[New Opportunity to Join Pathoplexus, Loculus &amp; ARTIC 2 as Post-Doc or Software Engineer
+
+]]></summary>
+    
+  </entry>
+  
+
+</feed>
