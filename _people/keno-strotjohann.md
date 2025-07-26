@@ -5,7 +5,7 @@ position: PhD student
 role: member
 order: 4
 image: /assets/images/people/keno-strotjohann.png
-permalink: /people/keno-strotjohann
+permalink: /people/keno-strotjohann/
 projects:
   - title: Enterovirus Epidemiology & Evolution
     link: /projects/evs/
