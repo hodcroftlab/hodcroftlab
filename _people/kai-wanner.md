@@ -6,9 +6,14 @@ role: member
 order: 5
 image: /assets/images/people/kai-wanner.jpg
 permalink: /people/kai-wanner/
+projects:
+  - title: Enterovirus D68 Projects
+    link: /projects/evd68/
+    icon: /assets/images/icons/evd68.png
 quote: "Hallo!"
 lab_start: 2025-01
 lab_end: 2025-11
+date: 2025-07-25
 ---
 
 Kai Wanner is an MSc student at Swiss TPH who is pursuing his MSc project in both EVE and [VIM]({{ site.baseurl }}/collaborations/vim/). 

@@ -12,6 +12,7 @@ tags:
   - Surveillance
   - Enterovirus
   - Coronavirus
+date: 2025-07-25
 ---
 
 The [Viral Immunology (VIM) group](https://www.swisstph.ch/en/about/mpi/viral-immunology) at the Swiss TPH, led by [Dr. Katharina Röltgen](https://www.swisstph.ch/en/staff/profile/people/katharina-roeltgen), focuses on understanding immune responses to viral infections with an emphasis on public health relevance. Their research explores how both innate and adaptive immune systems respond to viral pathogens, aiming to inform vaccine design, diagnostics, and therapeutic approaches. The group applies a broad range of techniques including serological assays, molecular diagnostics, and immunological profiling to investigate how different viruses interact with the human immune system. Current projects span various viruses of global concern, with particular attention to populations in low- and middle-income countries, where viral disease burdens and immune landscapes can differ significantly from those in high-income settings.

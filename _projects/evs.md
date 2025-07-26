@@ -14,6 +14,7 @@ people:
   - nadia-neuner-jehle
   - keno-strotjohann
 order: 2
+date: 2025-07-25
 ---
 
 Our work on Enteroviruses aims to advance our understanding of their evolution, spread, and impact on public health, with a particular focus on Enterovirus D68 (EV-D68). Supported by Dr Hodcroft's SNSF Starting Grant, we are applying genomic and phylogenetic methods to track viral dynamics over time and space, shedding light on the drivers of outbreaks and the patterns of viral persistence. This includes exploring how lineages circulate globally, where genetic bottlenecks arise, and how immune pressure may shape viral diversity. A central component of this effort is building practical tools and frameworks to support real-time monitoring and long-term surveillance of these viruses.

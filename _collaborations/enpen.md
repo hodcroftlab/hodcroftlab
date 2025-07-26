@@ -9,6 +9,7 @@ tags:
   - Europe
   - Enterovirus
   - Surveillance
+date: 2025-07-25
 ---
 
 The European Non-Polio Enterovirus Network (ENPEN) is a collaborative initiative aimed at strengthening surveillance, research, and public health responses to non-polio enteroviruses and parechoviruses across Europe. By connecting virologists, epidemiologists, clinicians, and public health experts, ENPEN facilitates coordinated efforts to monitor virus circulation, improve diagnostics, share data, and assess the burden of disease. The network plays a key role in building capacity and promoting harmonized approaches to studying these often-overlooked but clinically significant pathogens.

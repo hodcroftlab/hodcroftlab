@@ -9,10 +9,10 @@ permalink: /people/emma-hodcroft/
 quote: "I just don't want to look back and think, I could have eaten that"
 lab_start: 2023-11
 lab_end:
-
+date: 2025-07-25
 ---
 
-Emma Hodcroft is the lead of the EVE group - a molecular epidemiologist with a passion for understanding how viruses change, spread, and shape our world. Originally from Texas and Scotland, now based in Switzerland, she leads EVE from the the [Swiss Tropical and Public Health Institute](https://www.swisstph.ch/en/), in Basel - but thinks globally, blending sharp science with a fierce push for transparency and equity. Emma believes science works best when it's open, collaborative, and built to last — values that guide her work both in the lab and beyond.
+Emma Hodcroft is the lead of the EVE group - a molecular epidemiologist with a passion for understanding how viruses change, spread, and shape our world. Originally from Texas and Scotland, now based in Switzerland, she leads EVE from the [Swiss Tropical and Public Health Institute](https://www.swisstph.ch/en/), in Basel - but thinks globally, blending sharp science with a fierce push for transparency and equity. Emma believes science works best when it's open, collaborative, and built to last — values that guide her work both in the lab and beyond.
 
 Her research focuses on viral evolution and molecular epidemiology, with past projects ranging from global SARS-CoV-2 tracking to current work understanding endemic viruses like Enterovirus D68. She co-founded [Pathoplexus](https://pathoplexus.org/), an open-source platform for sharing and analyzing viral genome data, designed to empower researchers and public health efforts worldwide. Alongside this, she contributes to tools like [Nextstrain](https://nextstrain.org/) and founded [CoVariants.org](https://covariants.org/), helping to make complex data accessible and actionable. Whether building databases, developing visualization tools, or navigating the twists of pathogen phylogenies, Emma’s work is about making sense of the viral world — and sharing those insights widely.
 
