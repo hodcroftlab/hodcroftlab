@@ -9,6 +9,7 @@ permalink: /people/kai-wanner/
 quote: "Hallo!"
 lab_start: 2025-01
 lab_end: 2025-11
+date: 2025-07-25
 ---
 
 Kai Wanner is an MSc student at Swiss TPH who is pursuing his MSc project in both EVE and [VIM]({{ site.baseurl }}/collaborations/vim/). 

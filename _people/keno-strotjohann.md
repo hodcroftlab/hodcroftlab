@@ -13,6 +13,7 @@ projects:
 quote: "I brought cake!"
 lab_start: 2025-04
 lab_end: Present
+date: 2025-07-25
 ---
 
 Keno is a PhD student...

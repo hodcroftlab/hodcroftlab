@@ -9,6 +9,7 @@ permalink: /people/nema-ahmed-alfaki/
 quote: "Nice to meet you!"
 lab_start: 2025-07
 lab_end: 2026-02
+date: 2025-07-25
 ---
 
 Nema Ahmed Alfaki is an MSc student at Swiss TPH who is pursuing her MSc project in both EVE and [VIM]({{ site.baseurl }}/collaborations/vim/). 

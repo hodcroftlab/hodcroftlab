@@ -19,6 +19,7 @@ projects:
 quote: "Ski you later!"
 lab_start: 2024-05
 lab_end: Present
+date: 2025-07-25
 ---
 
 Nadia is a PhD student...
