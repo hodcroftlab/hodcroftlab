@@ -12,3 +12,4 @@ gem "jekyll-seo-tag"
 gem "jekyll-sitemap"
 gem "jekyll-feed"
 gem "kramdown-parser-gfm"
+gem "jekyll-last-modified-at" # Adds last modified date to posts
