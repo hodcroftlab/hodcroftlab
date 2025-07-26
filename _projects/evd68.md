@@ -15,6 +15,7 @@ people:
   - nadia-neuner-jehle
   - kai-wanner
 order: 1
+date: 2025-07-25
 ---
 
 Our research on Enterovirus D68 (EV-D68) focuses on untangling its complex evolutionary patterns and improving tools for surveillance and classification. A key priority is refining clade nomenclature, to bring greater clarity and consistency to how EV-D68 lineages are identified and tracked over time. We are also working to improve the annotation of genomic regions, particularly across the VP3–VP1 junction. These efforts feed directly into platforms like Nextclade and Nextstrain, enabling more reliable monitoring of EV-D68 evolution in near real-time. In addition, we're interested in using immunological data and models to better understand immunity against EV-D68 and the role adult reinfection may play in circulation and evolutionary pressure on the virus.

@@ -12,6 +12,7 @@ tags:
 people:
   - nadia-neuner-jehle
 order: 4
+date: 2025-07-25
 ---
 
 Basel Wastewater pilot project is an initiative to conducting a retrospective wastewater sequencing project using samples collected twice weekly from Basel-Stadt between July 2021 and July 2024, totaling 312 samples. Leveraging a newly developed protocol, we aim to detect and sequence the VP1 region of Enterovirus D68 (EV-D68) and other enteroviruses directly from these wastewater samples.

@@ -15,6 +15,7 @@ people:
   - nosihle-msomi
   - nema-ahmed-alfaki
 order: 3
+date: 2025-07-25
 ---
 
 Our research on seasonal human coronaviruses (HCoVs) seeks to understand how these widespread viruses evolve, circulate, and interact with human immunity over time. We are particularly interested in how reinfections occur, the roles of immune waning and antigenic change, and the potential for under-sampled regions to reshape our understanding of HCoV diversity. To address these questions, we are building real-time phylogenies of HCoVs, exploring recombination events and genomic evolution, and integrating this with serological data to assess patterns of past infection. One of our goals is to improve pan-coronavirus sequencing protocols and to identify conserved regions - especially within the nucleocapsid (N) protein - that can be used to develop more accurate serological assays with reduced cross-reactivity across HCoV species.
