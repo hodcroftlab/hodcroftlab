@@ -129,11 +129,14 @@ To change your 'socials' (also ORCiD/GScholar) you can generally just add a new 
 
 ## To Do list:
 
-- Set real pictures for all projects
-- Fix/adjust/find better pictures for all collaborations
-- For both of the above, set picture size?
-- Write pages for all projects
-- Write pages for all collaborations
-- Reformat blog pages
-- Write at least 1 blog post
-- Everyone fill in their own page
+- [x] Set real pictures for all projects
+- [x] Fix/adjust/find better pictures for all collaborations
+- [x] For both of the above, set picture size?
+- [x] Write pages for all projects
+- [x] Write pages for all collaborations
+- [x] Reformat blog pages
+- [x] Write at least 1 blog post
+- [ ] Everyone fill in their own page
+- [ ] Test having a blog post by another author
+- [ ] Create new 'tools' or 'resources' tab
+- [ ] Create a way to have subprojects
