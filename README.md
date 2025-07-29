@@ -57,10 +57,12 @@ bundle _2.6.2_ install
 ### 🔧 Step 5: Serve the Website
 
 ```bash
-jekyll serve
+JEKYLL_ENV=production jekyll serve
 ```
 
-Some websites suggest to use `bundle exec jekyll serve` but this has never worked for Emma.
+Some websites suggest to use `JEKYLL_ENV=production bundle exec jekyll serve` but this has never worked for Emma.
+
+Note that using `JEKYLL_ENV=production` will mean it inserts the 'real' URL (not `localhost`) into the website pages, sitemap, etc, which helps with the live website. It's important to build using this before you push, but if you are having trouble with links working locally, feel free to remove this when you build locally for testing - just add it back before you do a final build & push!
 
 To view the site, navigate to [http://127.0.0.1:4000/hodcroftlab](http://127.0.0.1:4000/hodcroftlab) to view. Note you can only view the site locally while this is running. To stop running, use `CTRL+C`. To see changes, you have to stop & rebuild!
 
