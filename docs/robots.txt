@@ -1,1 +1,1 @@
-Sitemap: http://localhost:4000/hodcroftlab/sitemap.xml
+Sitemap: https://hodcroftlab.github.io/hodcroftlab/sitemap.xml
