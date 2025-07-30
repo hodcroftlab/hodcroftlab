@@ -140,3 +140,4 @@ To change your 'socials' (also ORCiD/GScholar) you can generally just add a new 
 - [ ] Test having a blog post by another author
 - [ ] Create new 'tools' or 'resources' tab
 - [ ] Create a way to have subprojects
+- [ ] Look into auto-building with Github actions (see how ARTIC is doing it [here](https://github.com/artic-network/artic-doc/blob/main/.github/workflows/jekyll.yml))
