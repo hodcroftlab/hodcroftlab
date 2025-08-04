@@ -23,7 +23,7 @@ This layout is used for posts. Changing anything here will affect all posts(not 
           <div class="col-md-12 meta">
             <p><small>
                 <span>
-                  <i class="fa fa-calendar" aria-hidden="true"></i> {{page.date | date_to_string }}&nbsp;
+                  <i class="fa-regular fa-calendar-days" aria-hidden="true"></i> {{page.date | date_to_string }}&nbsp;
                 </span>
                 {% assign author_slug = page.author %}
                 {% assign author_obj = site.people | where: "slug", author_slug | first %}
@@ -37,7 +37,7 @@ This layout is used for posts. Changing anything here will affect all posts(not 
                   {% endif %}
                 </span>
                 <span>
-                  <i class="fa fa-clock-o" aria-hidden="true"></i> {% include reading-time.html %}
+                  <i class="fa-regular fa-clock" aria-hidden="true"></i> {% include reading-time.html %}
                 </span>
               </small></p>
           </div>

@@ -16,22 +16,25 @@
                 <p class="position"><small>{{ item.designation }}</small></p>
                 <ul class="team-social list-inline mt-2">
                   {% if item.twitter %}
-                    <li class="list-inline-item"><a href="{{ item.twitter }}"><i class="fa fa-twitter-square fa"></i></a></li>
+                    <li class="list-inline-item"><a href="{{ item.twitter }}"><i class="fa-brands fa-twitter fa"></i></a></li>
                   {% endif %}
                   {% if item.bluesky %}
-                    <li class="list-inline-item"><a href="{{ item.bluesky }}"><i class="fa fa-skyatlas fa"></i></a></li>
+                    <li class="list-inline-item"><a href="{{ item.bluesky }}"><i class="fa-brands fa-bluesky fa"></i></a></li>
                   {% endif %}
                   {% if item.facebook %}
-                    <li class="list-inline-item"><a href="{{ item.facebook }}"><i class="fa fa-facebook-official fa"></i></a></li>
+                    <li class="list-inline-item"><a href="{{ item.facebook }}"><i class="fa-brands fa-facebook fa"></i></a></li>
+                  {% endif %}
+                  {% if item.mastodon %}
+                    <li class="list-inline-item"><a href="{{ item.mastodon }}"><i class="fa-brands fa-mastodon fa"></i></a></li>
                   {% endif %}
                   {% if item.linkedin %}
-                    <li class="list-inline-item"><a href="{{ item.linkedin }}"><i class="fa fa-linkedin-square fa"></i></a></li>
+                    <li class="list-inline-item"><a href="{{ item.linkedin }}"><i class="fa-brands fa-linkedin-in fa"></i></a></li>
                   {% endif %}
                   {% if item.github %}
-                    <li class="list-inline-item"><a href="{{ item.github }}"><i class="fa fa-github-square fa"></i></a></li>
+                    <li class="list-inline-item"><a href="{{ item.github }}"><i class="fa-brands fa-github fa"></i></a></li>
                   {% endif %}
                   {% if item.orcid %}
-                    <li class="list-inline-item"><a href="{{ item.orcid }}"><i class="fa fa-leaf fa"></i></a></li>
+                    <li class="list-inline-item"><a href="{{ item.orcid }}"><i class="fa-brands fa-orcid fa"></i></a></li>
                   {% endif %}
                 </ul>
               </a>

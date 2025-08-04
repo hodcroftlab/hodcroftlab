@@ -15,22 +15,25 @@
   
         <ul class="team-social d-flex justify-content-center list-unstyled mb-0">
           {% if include.person.twitter %}
-            <li class="mx-1"><a href="{{ include.person.twitter }}"><i class="fa fa-twitter-square fa-lg"></i></a></li>
+            <li class="mx-1"><a href="{{ include.person.twitter }}"><i class="fa-brands fa-twitter fa-lg"></i></a></li>
           {% endif %}
           {% if include.person.bluesky %}
-            <li class="mx-1"><a href="{{ include.person.bluesky }}"><i class="fa fa-skyatlas fa-lg"></i></a></li>
+            <li class="mx-1"><a href="{{ include.person.bluesky }}"><i class="fa fa-brands fa-bluesky fa-lg"></i></a></li>
+          {% endif %}
+          {% if include.person.mastodon %}
+            <li class="mx-1"><a href="{{ include.person.mastodon }}"><i class="fa-brands fa-mastodon fa-lg"></i></a></li>
           {% endif %}
           {% if include.person.facebook %}
-            <li class="mx-1"><a href="{{ include.person.facebook }}"><i class="fa fa-facebook-official fa-lg"></i></a></li>
+            <li class="mx-1"><a href="{{ include.person.facebook }}"><i class="fa-brands fa-facebook fa-lg"></i></a></li>
           {% endif %}
           {% if include.person.linkedin %}
-            <li class="mx-1"><a href="{{ include.person.linkedin }}"><i class="fa fa-linkedin-square fa-lg"></i></a></li>
+            <li class="mx-1"><a href="{{ include.person.linkedin }}"><i class="fa-brands fa-linkedin-in fa-lg"></i></a></li>
           {% endif %}
           {% if include.person.github %}
-            <li class="mx-1"><a href="{{ include.person.github }}"><i class="fa fa-github-square fa-lg"></i></a></li>
+            <li class="mx-1"><a href="{{ include.person.github }}"><i class="fa-brands fa-github fa-lg"></i></a></li>
           {% endif %}
           {% if include.person.orcid %}
-            <li class="mx-1"><a href="{{ include.person.orcid }}"><i class="fa fa-leaf fa-lg"></i></a></li>
+            <li class="mx-1"><a href="{{ include.person.orcid }}"><i class="fa-brands fa-orcid fa-lg"></i></a></li>
           {% endif %}
         </ul>
       </div>
