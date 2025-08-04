@@ -444,13 +444,33 @@ We welcome diverse and international applicants!</p>
     
       <p class="text-muted mb-2">Assistant Prof, Group Leader</p>
     
+
+  <div class="author-quotes-box" style="min-height:2em;">
     
-      <p class="fst-italic small">“I just don't want to look back and think, I could have eaten that”</p>
+      <span class="author-quote" style="display:none;">“I just don't want to look back and think, I could have eaten that”</span>
     
+      <span class="author-quote" style="display:none;">“You can do great things, even if you don't always have great days.”</span>
+    
+      <span class="author-quote" style="display:none;">“If you have the power to offer someone a little relief, do it. You know what a little relief feels like? It feels like a lot.”</span>
+    
+  </div>
+
   </div>
 </div>
 
-
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelectorAll('.author-quotes-box').forEach(function(box) {
+    var quotes = box.querySelectorAll('.author-quote');
+    if (quotes.length > 0) {
+      var idx = Math.floor(Math.random() * quotes.length);
+      quotes.forEach(function(q, i) {
+        q.style.display = (i === idx) ? 'inline' : 'none';
+      });
+    }
+  });
+});
+</script>
             
 
             
