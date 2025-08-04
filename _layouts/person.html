@@ -25,19 +25,22 @@ layout: default
         {% endif %}
         <ul class="team-social profile-social">
           {% if person.twitter %}
-          <li><a href="{{ person.twitter }}"><i class="fa fa-twitter-square fa"></i></a></li>
+          <li><a href="{{ person.twitter }}"><i class="fa-brands fa-twitter fa"></i></a></li>
           {% endif %}
           {% if person.github %}
-          <li><a href="{{ person.github }}"><i class="fa fa-github-square fa"></i></a></li>
+          <li><a href="{{ person.github }}"><i class="fa-brands fa-github fa"></i></a></li>
+          {% endif %}
+          {% if person.mastodon %}
+          <li><a href="{{ person.mastodon }}"><i class="fa-brands fa-mastodon fa"></i></a></li>
           {% endif %}
           {% if person.linkedin %}
-          <li><a href="{{ person.linkedin }}"><i class="fa fa-linkedin-square fa"></i></a></li>
+          <li><a href="{{ person.linkedin }}"><i class="fa-brands fa-linkedin-in fa"></i></a></li>
           {% endif %}
           {% if person.bluesky %}
-          <li><a href="{{ person.bluesky }}"><i class="fa fa-skyatlas fa"></i></a></li>
+          <li><a href="{{ person.bluesky }}"><i class="fa-brands fa-bluesky fa"></i></a></li>
           {% endif %}
           {% if person.orcid %}
-          <li><a href="{{ person.orcid }}"><i class="fa fa-leaf fa"></i></a></li>
+          <li><a href="{{ person.orcid }}"><i class="fa-brands fa-orcid fa"></i></a></li>
           {% endif %}
         </ul>
       </div>
@@ -95,7 +98,7 @@ layout: default
           <div class="d-flex justify-content-center flex-wrap gap-2">
             {% if person.orcid %}
               <a href="{{ person.orcid }}" class="btn btn-outline-info" style="color: #2c7eca; margin-right: 10px;" target="_blank" rel="noopener noreferrer">
-                <i class="fa fa-leaf"></i> ORCID
+                <i class="fa-brands fa-orcid"></i> ORCID
               </a>
             {% endif %}
             {% if person.gscholar %}
