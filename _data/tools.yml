@@ -1,0 +1,49 @@
+
+Analysis tools:
+#- name: Recombination Detector
+#  description: Detect recombination events in viral genomes.
+#  url: https://recomb.eve-lab.org
+#  icon: fa-random
+
+- name: EV-D68 Reference Converter
+  description: Converts EV-D68 amino-acid positions to a corrected VP3-VP1 annotation
+  url: https://hodcroftlab.github.io/evd68-converter/
+  github: https://github.com/hodcroftlab/evd68-converter
+  icon: fa-braille
+
+Nextstrain builds:
+- name: EV-D68 Nextstrain Build
+  description: Whole genome phylogenetic analysis of EV-D68 
+  url: https://nextstrain.org/groups/hodcroftlab/enterovirus/d68/genome
+  icon_img: /assets/images/icons/nextstrain-icon.svg
+
+- name: EV-A71 Nextstrain Build
+  description: Whole genome phylogenetic analysis of EV-A71 
+  url: https://nextstrain.org/groups/hodcroftlab/enterovirus/A71/whole-genome
+  icon_img: /assets/images/icons/nextstrain-icon.svg
+
+- name: CV-A6 Nextstrain Build
+  description: Whole genome phylogenetic analysis of Coxsackievirus A6
+  url: https://nextstrain.org/groups/hodcroftlab/coxsackievirus/A6/whole-genome
+  icon_img: /assets/images/icons/nextstrain-icon.svg
+
+- name: CV-A16 Nextstrain Build
+  description: Whole genome phylogenetic analysis of Coxsackievirus A16
+  url: https://nextstrain.org/groups/hodcroftlab/coxsackievirus/A16/whole-genome
+  icon_img: /assets/images/icons/nextstrain-icon.svg
+
+- name: Polio & EV-C Nextstrain Build
+  description: VP1 phylogenetic analysis of Polio & Enterovirus C viruses
+  url: https://nextstrain.org/groups/hodcroftlab/enterovirus/c/VP1
+  icon_img: /assets/images/icons/nextstrain-icon.svg
+
+#- name: Seasonal Coronavirus Nextstrain Builds
+#  description: Public dataset for seasonal coronavirus surveillance with metadata and alignments.
+#  url: https://data.eve-lab.org/coronavirus
+#  icon_img: /assets/images/icons/nextstrain-icon.svg
+
+#Nextclade datasets:
+#- name: EV-D68 Nextclade Dataset
+#  description: Nextclade dataset for aligning, QC, and clade-assignment for EV-D68
+#  github: https://github.com/hodcroftlab/nextclade_d68
+#  icon: fa-cog

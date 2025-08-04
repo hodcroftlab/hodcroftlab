@@ -99,6 +99,8 @@ Luckily you shouldn't have to worry too much about layout changes (let Emma know
 
 Generally, you should focus on editing the `.md` files to add information. To see how to edit your own or others personal pages, see [changing people information](#changing-people-information).
 
+## Changing Projects & Collaborations
+
 To edit a project or a collaboration, just find the corresponding `.md` file in `_projects/` or `collaborations/`. To change their photos, add the image to `assets/images/projects` or `assets/images/collaborations` and modify the `image:` property in the `.md` file. (Please don't modify the logos without talking to Emma first.)
 
 To *add* a project or collaboration, create a new `.md` file in the correct folder, following the format of existing files (don't forget an image, and for collaborations, a square, grayscale icon!). Then add a link in the menu at the top of the website by adding a new entry in `_data/nav.yml`. 
@@ -127,6 +129,12 @@ To change your photo, the easiest thing to do is to just replace the photo of yo
 
 To change your 'socials' (also ORCiD/GScholar) you can generally just add a new entry to your section of `_data/team.yml` - currently supported are Twitter, Github, Bluesky, ORCiD, Google Scholar (`gscholar`), and LinkedIn. Talk to Emma about adding any others!
 
+## Adding Tools/Resources
+
+To add to the 'Tools & Resources' page, you should only have to edit the `_data/tools.yml` page. Do be sure to add it to the right category, or add a new category if necessary (maybe ask Emma if unsure). You can add a link to the tool (`url`), a link to the github (`github`), or both.
+
+You can either choose a FontAwesome font (see "EV-D68 Reference Converter"), or add a (very small) image to `/assets/images/icons` and use this instead (see "EV-D68 Nextstrain Build"). 
+
 ## To Do list:
 
 - [x] Set real pictures for all projects
@@ -138,6 +146,6 @@ To change your 'socials' (also ORCiD/GScholar) you can generally just add a new 
 - [x] Write at least 1 blog post
 - [ ] Everyone fill in their own page
 - [x] Test having a blog post by another author
-- [ ] Create new 'tools' or 'resources' tab
+- [x] Create new 'tools' or 'resources' tab
 - [ ] Create a way to have subprojects
 - [ ] Look into auto-building with Github actions (see how ARTIC is doing it [here](https://github.com/artic-network/artic-doc/blob/main/.github/workflows/jekyll.yml))
