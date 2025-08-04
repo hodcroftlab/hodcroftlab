@@ -6,7 +6,7 @@ role: member
 order: 1
 image: /assets/images/people/emma-hodcroft.jpg
 permalink: /people/emma-hodcroft/
-quote: "I just don't want to look back and think, I could have eaten that"
+quote: ["I just don't want to look back and think, I could have eaten that", "You can do great things, even if you don't always have great days.", "If you have the power to offer someone a little relief, do it. You know what a little relief feels like? It feels like a lot."]
 lab_start: 2023-11
 lab_end:
 date: 2025-07-25

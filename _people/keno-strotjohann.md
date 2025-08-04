@@ -10,7 +10,7 @@ projects:
   - title: Enterovirus Epidemiology & Evolution
     link: /projects/evs/
     icon: /assets/images/icons/eva71.png
-quote: "I brought cake!"
+quote: ["I brought cake!"]
 lab_start: 2025-04
 lab_end: Present
 date: 2025-07-25

@@ -6,7 +6,7 @@ role: member
 order: 5
 image: /assets/images/people/nema-ahmed-alfaki.jpg
 permalink: /people/nema-ahmed-alfaki/
-quote: "Nice to meet you!"
+quote: ["Nice to meet you!"]
 projects:
   - title: Seasonal Coronavirus Epidemiology & Evolution
     link: /projects/hcovs/

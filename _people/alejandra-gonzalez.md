@@ -11,7 +11,7 @@ projects:
     icon: /assets/images/icons/eva71.png
   - title: Pathoplexus
     link: /collaborations/pathoplexus/
-quote: "Hola!"
+quote: ["Hola!"]
 lab_start: 2025-05
 lab_end: 2025-07
 date: 2025-07-25
