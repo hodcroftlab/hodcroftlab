@@ -11,9 +11,26 @@
     {% if author.position %}
       <p class="text-muted mb-2">{{ author.position }}</p>
     {% endif %}
-    {% if author.quote %}
-      <p class="fst-italic small">“{{ author.quote }}”</p>
-    {% endif %}
+{% if author.quote %}
+  <div class="author-quotes-box" style="min-height:2em;">
+    {% for quote in author.quote %}
+      <span class="author-quote" style="display:none;">“{{ quote }}”</span>
+    {% endfor %}
+  </div>
+{% endif %}
   </div>
 </div>
 {% endif %}
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelectorAll('.author-quotes-box').forEach(function(box) {
+    var quotes = box.querySelectorAll('.author-quote');
+    if (quotes.length > 0) {
+      var idx = Math.floor(Math.random() * quotes.length);
+      quotes.forEach(function(q, i) {
+        q.style.display = (i === idx) ? 'inline' : 'none';
+      });
+    }
+  });
+});
+</script>

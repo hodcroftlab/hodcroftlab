@@ -16,7 +16,7 @@ projects:
   - title: Basel Wastewater
     link: /projects/basel-wastewater/
     icon: /assets/images/icons/toilet.png
-quote: "Whipped up a quick Notion page… somehow it turned into a confusing masterpiece only I get."
+quote: ["Whipped up a quick Notion page… somehow it turned into a confusing masterpiece only I get."]
 lab_start: 2024-05
 lab_end: Present
 date: 2025-07-25

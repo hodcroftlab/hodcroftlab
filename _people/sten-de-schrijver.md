@@ -5,7 +5,7 @@ position: Visiting MSc student
 role: alumni
 image: /assets/images/people/sten-de-schrijver.jpg
 permalink: /people/sten-de-schrijver/
-quote: "Hallo!"
+quote: ["Hallo!"]
 lab_start: 2024-05
 lab_end: 2024-06
 date: 2025-07-25

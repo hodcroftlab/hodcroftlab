@@ -12,7 +12,7 @@ projects:
     icon: /assets/images/icons/sc2.png
   - title: ESCAPE
     link: /collaborations/escape/
-quote: "Ask me about my bunny!"
+quote: ["Ask me about my bunny!"]
 lab_start: 2024-09
 lab_end: Present
 date: 2025-07-25
