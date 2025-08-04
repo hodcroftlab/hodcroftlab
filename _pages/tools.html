@@ -1,0 +1,25 @@
+---
+layout: page
+title: Tools & Resources
+permalink: /tools/
+description: Tools & resources developed by the EVE Lab
+---
+
+<div class="container">
+  <h2 class="mb-4">Tools & Resources</h2>
+  <p class="lead text-muted">
+  Explore tools and resources from the EVE Lab. A complete list of our Nextstrain builds is available
+  <a href="https://nextstrain.org/groups/hodcroftlab" target="_blank" rel="noopener">here</a>.
+</p>
+
+  {% for category in site.data.tools %}
+    <h3 class="mt-5 mb-3">{{ category[0] }}</h3>
+    <div class="row">
+      {% assign catname = category[0] %}
+      {% for tool in category[1] %}
+        {% include tool_card.html tool=tool category=catname %}
+      {% endfor %}
+    </div>
+  {% endfor %}
+
+</div>

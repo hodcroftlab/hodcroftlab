@@ -7,6 +7,9 @@
 - title: Blog
   link: '/blog/'
 
+- title: Tools & Resources
+  link: '/tools/'
+  
 - title: Projects
   dropdown:
     - title: Enterovirus Epidemiology & Evolution

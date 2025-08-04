@@ -1,0 +1,29 @@
+<div class="col-md-4 mb-4">
+  <div class="card h-100 shadow-sm">
+    <div class="card-body text-center">
+      {% if include.tool.icon_img %}
+        <img src="{{ include.tool.icon_img | relative_url }}" alt="" width="32" class="mb-2">
+      {% elsif include.tool.icon %}
+        <i class="fa {{ include.tool.icon }} fa-2x mb-2 text-primary"></i>
+      {% endif %}
+
+      <h5 class="card-title">{{ include.tool.name }}</h5>
+      <p class="card-text">{{ include.tool.description }}</p>
+	  {% if include.tool.url %}
+      	<a href="{{ include.tool.url }}" class="btn btn-primary" target="_blank" rel="noopener">
+		{% assign cat = include.category | downcase %}
+		{% if cat == "nextstrain builds" %}
+			<i class="fa fa-tree me-1"></i> Visit Build
+		{% else %}
+			<i class="fa fa-gears me-1"></i> Visit Tool
+		{% endif %}
+		</a>
+	{% endif %}
+		{% if include.tool.github %}
+			<a href="{{ include.tool.github }}" class="btn btn-outline-secondary" target="_blank" rel="noopener">
+			<i class="fa fa-github me-1"></i> View on GitHub
+			</a>
+		{% endif %}
+    </div>
+  </div>
+</div>
