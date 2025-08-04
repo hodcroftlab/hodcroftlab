@@ -135,6 +135,10 @@ To add to the 'Tools & Resources' page, you should only have to edit the `_data/
 
 You can either choose a FontAwesome font (see "EV-D68 Reference Converter"), or add a (very small) image to `/assets/images/icons` and use this instead (see "EV-D68 Nextstrain Build"). 
 
+### FontAwesome notes
+
+Throughout the site we often make use of 'FontAwesome' icons for links and for decorating cards, menus, and etc. We used (pre Aug 2025) to use FontAwesome 4.7 (list of icons [here](https://fontawesome.com/v4/icons/)) - as of 4 Aug 2025, we've moved to FontAwesome 6.5.2 (see `_layouts/default.html`). Note that we do not have Pro - only the basic icon set. To add a new icon, see [this list](https://fontawesome.com/v6/search) to see what's available.
+
 ## To Do list:
 
 - [x] Set real pictures for all projects
