@@ -11,7 +11,12 @@
 		{% for item in collaborations %}
 		  <div class="item text-center">
 			<a href="{{ item.url | relative_url }}">
-				<img src="{{ item.logo | relative_url }}" alt="{{ item.title }}" title="{{ item.title }}" class="collaboration-logo">
+				<div class="item text-center position-relative collaboration-item">
+				<a href="{{ item.url | relative_url }}">
+					<img src="{{ item.logo | relative_url }}" alt="{{ item.title }}" class="collaboration-logo">
+					<div class="collab-hover-label">{{ item.title }}</div>
+				</a>
+				</div>
 			</a>
 		  </div>
 		{% endfor %}
