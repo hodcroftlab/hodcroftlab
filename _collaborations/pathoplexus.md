@@ -2,6 +2,7 @@
 layout: collaboration
 title: Pathoplexus & Loculus
 permalink: /collaborations/pathoplexus/
+icon: fas fa-square-virus
 image: /assets/images/collaborations/pathoplexus.png
 logo: /assets/images/collaborations/pathoplexus-logo.png
 start_date: 2024-08-12

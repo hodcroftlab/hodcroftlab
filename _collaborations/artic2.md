@@ -2,6 +2,7 @@
 layout: collaboration
 title: ARTIC 2
 permalink: /collaborations/artic2/
+icon: fas fa-circle-nodes
 image: /assets/images/collaborations/artic2.png
 logo: /assets/images/collaborations/artic2-logo.png
 start_date: 2025-05-01

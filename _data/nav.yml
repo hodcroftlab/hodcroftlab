@@ -32,15 +32,21 @@
   dropdown:
     - title: VIM
       link: /collaborations/vim/
+      icon: fas fa-virus-covid
     - title: ESCAPE
       link: /collaborations/escape/
+      icon: fas fa-spinner
     - title: ENPEN
       link: /collaborations/enpen/
+      icon: fa fa-lungs-virus
     - title: Center for Pathogen Bioinformatics
       link: /collaborations/cpb/
+      icon: fas fa-shapes
     - title: Pathoplexus & Loculus
       link: /collaborations/pathoplexus/
+      icon: fas fa-square-virus
     - title: ARTIC 2.0
       link: /collaborations/artic2/
+      icon: fas fa-circle-nodes
     - title: View all
       link: /collaborations/
