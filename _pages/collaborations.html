@@ -29,7 +29,12 @@ permalink: /collaborations/
         <img src="{{ collab.image | relative_url }}" class="card-img-top" alt="{{ collab.title }}">
         {% endif %}
         <div class="card-body">
-          <h5 class="card-title">{{ collab.title }}</h5>
+          <h5 class="card-title">
+            {% if collab.icon %}
+              <i class="{{ collab.icon }} mr-2"></i>
+            {% endif %}
+            {{ collab.title }}
+          </h5>
           <p class="card-text">{{ collab.excerpt | markdownify | strip_html | truncate: 120 }}</p>
           {% if collab.tags %}
           <div class="tags">

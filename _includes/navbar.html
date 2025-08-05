@@ -38,7 +38,11 @@
             {% for i in item.dropdown %}
             <a class="dropdown-item nav-link" href="{{i.link | relative_url}}">
               {% if i.icon %}
-                <img src="{{ i.icon | relative_url }}" alt="" style="width: 1em; height: 1em; margin-right: 0.3em;" />
+                {% if i.icon contains 'fa-' %}
+                  <i class="{{ i.icon }}" style="margin-right: 0.3em;"></i>
+                {% else %}
+                  <img src="{{ i.icon | relative_url }}" alt="" style="width: 1em; height: 1em; margin-right: 0.3em;" />
+                {% endif %}
               {% endif %}
               {{ i.title }}
             </a>

@@ -2,6 +2,7 @@
 layout: collaboration
 title: ENPEN
 permalink: /collaborations/enpen/
+icon: fas fa-lungs-virus
 image: /assets/images/collaborations/enpen.jpg
 logo: /assets/images/collaborations/enpen-logo.jpg
 start_date: 2018-05-01

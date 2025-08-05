@@ -12,6 +12,7 @@ projects:
     icon: /assets/images/icons/sc2.png
   - title: ESCAPE
     link: /collaborations/escape/
+    icon: fas fa-spinner
 quote: ["Ask me about my bunny!"]
 lab_start: 2024-09
 lab_end: Present

@@ -2,6 +2,7 @@
 layout: collaboration
 title: VIM
 permalink: /collaborations/vim/
+icon: fas fa-virus-covid
 image: /assets/images/collaborations/vim.jpg
 logo: /assets/images/collaborations/vim-logo.png
 start_date: 2023-11
