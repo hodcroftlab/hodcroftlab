@@ -10,6 +10,7 @@ categories:
 layout: post
 toc: false
 date: 2025-07-25
+description: "New Opportunity to Join Pathoplexus, Loculus & ARTIC 2 as Post-Doc or Software Engineer"
 ---
 ## New Opportunity to Join Pathoplexus, Loculus & ARTIC 2 as Post-Doc or Software Engineer
 
