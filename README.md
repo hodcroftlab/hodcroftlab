@@ -153,9 +153,9 @@ Throughout the site we often make use of 'FontAwesome' icons for links and for d
 - [x] Upgrade fontawesome & migrate all icons
 - [x] Add fontawesome icons to collab pages
 - [x] Link to proper URL
-- [ ] Add plausible tracking
-- [ ] Add social media preview image
-- [ ] Find out what Apple touch icon is?
+- [x] Add plausible tracking
+- [x] Add social media preview image
+- [x] Find out what Apple touch icon is?
 - [ ] Everyone fill in their own page
 - [ ] Create a way to have subprojects
 - [ ] Look into auto-building with Github actions (see how ARTIC is doing it [here](https://github.com/artic-network/artic-doc/blob/main/.github/workflows/jekyll.yml))
