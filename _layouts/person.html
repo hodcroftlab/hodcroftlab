@@ -84,7 +84,11 @@ layout: default
           {% for proj in page.projects %}
           <a class="btn project-badge mb-2 mr-2" href="{{ proj.link | relative_url }}">
             {% if proj.icon %}
-              <img src="{{ proj.icon | relative_url }}" alt="" class="project-icon" />
+              {% if proj.icon contains 'fa-' %}
+                <i class="{{ proj.icon }} mr-2 text-muted"></i>
+              {% else %}
+                <img src="{{ proj.icon | relative_url }}" alt="" class="project-icon" />
+              {% endif %}
             {% endif %}
             <span>{{ proj.title }}</span>
           </a>
