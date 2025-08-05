@@ -1,3 +1,5 @@
+<!-- NOTE EMMA DOESN'T THINK THIS PAGE IS USED AT ALL!! -->
+<!-- INSTEAD LOOK TO MODIFY LAYOUTS/COLLABORATION AND PAGES/COLLABORATION! -->
 <section id="collaborations" class="main-section">
     <div class="container">
       <div class="row">
@@ -15,8 +17,15 @@
             </div>
             <div class="projects__project__description">
               <div class="info-wrapper">
-                <h3 class="projects__project__name">{{ collab.title }}</h3>
+                <h3 class="projects__project__name">
+                  <i class="{{ collab.icon | default: 'fas fa-bug' }} mr-2" style="color: red;"></i>
+                  {% if collab.icon %}
+                    <i class="{{ collab.icon | default: 'fas fa-bug' }} mr-2" style="color: red;"></i>
+                  {% endif %}
+                  {{ collab.title }}
+                </h3>
                 {% if collab.category %}
+                  <p> {{collab.icon}}</p>
                   <p class="projects__project__category">{{ collab.category }}</p>
                 {% endif %}
               </div>
