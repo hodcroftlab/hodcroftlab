@@ -3,8 +3,10 @@ title: ARTIC2 Open Position
 image: /assets/images/artic2-job-header.png
 author: emma-hodcroft
 categories: 
-    - work
-    - projects
+    - jobs
+    - openings
+    - artic
+    - pathoplexus
 layout: post
 toc: false
 date: 2025-07-25
