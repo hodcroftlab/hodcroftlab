@@ -106,6 +106,9 @@
         }
       </style>
     </noscript>
+    {% if jekyll.environment == "production" %}
+      <script defer data-domain="eve-lab.org" src="https://plausible.io/js/script.outbound-links.js"></script>
+    {% endif %}
   </head>
 
   <body>
