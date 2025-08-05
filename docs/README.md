@@ -148,9 +148,11 @@ Throughout the site we often make use of 'FontAwesome' icons for links and for d
 - [x] Write pages for all collaborations
 - [x] Reformat blog pages
 - [x] Write at least 1 blog post
-- [ ] Everyone fill in their own page
 - [x] Test having a blog post by another author
 - [x] Create new 'tools' or 'resources' tab
 - [x] Upgrade fontawesome & migrate all icons
+- [x] Add fontawesome icons to collab pages
+- [ ] Link to proper URL
+- [ ] Everyone fill in their own page
 - [ ] Create a way to have subprojects
 - [ ] Look into auto-building with Github actions (see how ARTIC is doing it [here](https://github.com/artic-network/artic-doc/blob/main/.github/workflows/jekyll.yml))

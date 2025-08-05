@@ -358,12 +358,99 @@ Making any change will effect all the pages(not posts) -->
     <div class="row">
       <div class="col-md-12">
         <article class="rev">
-          <div class="container">
+          <style>
+  .category-filters {
+    margin-bottom: 20px;
+  }
+  .category-filters button {
+    margin: 0 5px 5px 0;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .category-filters button.active {
+    background-color: #007BFF;
+    color: white;
+    border-color: #007BFF;
+  }
+</style>
+
+<div class="container">
   <div class="row">
     <div class="col-lg-12">
+
+      <!-- Category filter buttons (generated dynamically) -->
+      <div id="category-filters" class="category-filters">
+        <button id="clear-filters" style="font-weight: bold;">Clear All</button>
+      </div>
+
+      
+      
+
+      <script>
+        const allCategories = ["jobs","openings","artic","pathoplexus"];
+        window.addEventListener("DOMContentLoaded", function () {
+          const filterContainer = document.getElementById("category-filters");
+          const clearBtn = document.getElementById("clear-filters");
+
+          // Track active category selections
+          const state = new Set();
+
+          // Create category buttons
+          allCategories.forEach(cat => {
+            const btn = document.createElement("button");
+            btn.innerText = cat;
+            btn.setAttribute("data-category", cat);
+            filterContainer.appendChild(btn);
+          });
+
+          // Click handling for category buttons
+          filterContainer.addEventListener("click", e => {
+            if (e.target.tagName !== "BUTTON" || e.target.id === "clear-filters") return;
+
+            const cat = e.target.getAttribute("data-category");
+            e.target.classList.toggle("active");
+
+            if (state.has(cat)) {
+              state.delete(cat);
+            } else {
+              state.add(cat);
+            }
+
+            filterPosts();
+          });
+
+          // Clear All functionality
+          clearBtn.addEventListener("click", () => {
+            state.clear();
+            document.querySelectorAll("#category-filters button.active").forEach(btn => {
+              btn.classList.remove("active");
+            });
+            filterPosts();
+          });
+
+          function filterPosts() {
+            const posts = document.querySelectorAll(".blog-list");
+            posts.forEach(post => {
+              const categories = post.getAttribute("data-categories").split(" ");
+              const hasMatch = [...state].some(cat => categories.includes(cat));
+              if (state.size === 0 || hasMatch) {
+                post.style.display = "";
+              } else {
+                post.style.display = "none";
+              }
+            });
+          }
+        });
+      </script>
+
+
+      <!-- Blog post loop -->
       
       <a class="nostyle" href="/hodcroftlab/blog/ARTIC2-open-position/">
-        <div class="row cards blog-list rev">
+        <div class="row cards blog-list rev" data-categories="jobs openings artic pathoplexus">
           <div class="col-md-4 image" style="background-image: url(/hodcroftlab/assets/images/artic2-job-header.png);">
           </div>
           <div class="col-md-8 content">
@@ -374,20 +461,16 @@ Are you excited by the idea of building global infrastructure to make pathogen s
           </div>
         </div>
       </a>
-
       
+
     </div>
     <div class="col-lg-4 blog-sidebar">
-
-      </div>
-
-      <hr>
-
-
     </div>
+    <hr>
   </div>
-  
 </div>
+
+
         </article>
       </div>
     </div>
