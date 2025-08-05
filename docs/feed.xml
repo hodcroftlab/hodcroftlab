@@ -4,13 +4,13 @@
 
   <generator uri="https://jekyllrb.com/" version="3.9.4">Jekyll</generator>
 
-  <link href="https://hodcroftlab.github.io/hodcroftlab/feed.xml" rel="self" type="application/atom+xml" />
-  <link href="https://hodcroftlab.github.io/hodcroftlab/" rel="alternate" type="text/html" />
+  <link href="https://eve-lab.org/feed.xml" rel="self" type="application/atom+xml" />
+  <link href="https://eve-lab.org/" rel="alternate" type="text/html" />
 
   
   <updated>2025-07-25T00:00:00+02:00</updated>
 
-  <id>https://hodcroftlab.github.io/hodcroftlab/feed.xml</id>
+  <id>https://eve-lab.org/feed.xml</id>
   <title type="html">EVE</title>
   <subtitle>EVE - Epidemiology and Virus Evolution - the Hodcroft lab</subtitle>
 
@@ -22,13 +22,13 @@
   <entry>
     <title type="html">ARTIC2 Open Position</title>
 
-    <link href="https://hodcroftlab.github.io/hodcroftlab/blog/ARTIC2-open-position/" rel="alternate" type="text/html" title="ARTIC2 Open Position" />
-    <id>https://hodcroftlab.github.io/hodcroftlab/blog/ARTIC2-open-position/</id>
+    <link href="https://eve-lab.org/blog/ARTIC2-open-position/" rel="alternate" type="text/html" title="ARTIC2 Open Position" />
+    <id>https://eve-lab.org/blog/ARTIC2-open-position/</id>
 
     <published>2025-07-25T00:00:00+02:00</published>
     <updated>2025-07-25T00:00:00+02:00</updated>
 
-    <content type="html" xml:base="https://hodcroftlab.github.io/hodcroftlab/blog/ARTIC2-open-position/">
+    <content type="html" xml:base="https://eve-lab.org/blog/ARTIC2-open-position/">
       <![CDATA[
         <h2 id="new-opportunity-to-join-pathoplexus-loculus--artic-2-as-post-doc-or-software-engineer">New Opportunity to Join Pathoplexus, Loculus &amp; ARTIC 2 as Post-Doc or Software Engineer</h2>
 
@@ -69,7 +69,7 @@ We welcome diverse and international applicants!</p>
 	
 	<author>
 		<name>Emma Hodcroft</name>
-		<uri>https://hodcroftlab.github.io/hodcroftlab/people/emma-hodcroft/</uri>
+		<uri>https://eve-lab.org/people/emma-hodcroft/</uri>
 	</author>
 	
 
@@ -78,8 +78,8 @@ We welcome diverse and international applicants!</p>
     
 
     
-      <media:thumbnail url="https://hodcroftlab.github.io/hodcroftlab/assets/images/artic2-job-header.png" />
-      <media:content medium="image" url="https://hodcroftlab.github.io/hodcroftlab/assets/images/artic2-job-header.png" />
+      <media:thumbnail url="https://eve-lab.org/assets/images/artic2-job-header.png" />
+      <media:content medium="image" url="https://eve-lab.org/assets/images/artic2-job-header.png" />
     
 
     
