@@ -2,6 +2,7 @@
 layout: collaboration
 title: ESCAPE
 permalink: /collaborations/escape/
+icon: fas fa-spinner
 image: /assets/images/collaborations/escape.png
 logo: /assets/images/collaborations/escapecircle-logo.png
 start_date: 2023-01-12

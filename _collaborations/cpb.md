@@ -2,6 +2,7 @@
 layout: collaboration
 title: Center for Pathopen Bioinformatics
 permalink: /collaborations/cpb/
+icon: fas fa-shapes
 image: /assets/images/collaborations/cpb.jpg
 logo: /assets/images/collaborations/cpb-logo.jpg
 start_date: 2024-09-30
