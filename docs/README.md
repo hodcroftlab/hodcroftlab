@@ -113,21 +113,21 @@ Ensure you add the name of anyone else involved in the project/collaboration, an
 There are two places to update information about a person:
 
 `_data/team.yml` is the list of people who will appear on the About and Index (front) pages, and also includes: 
-- Social media info (orcid, google scholar, bsky, linkedin, etc)
+- Social media info (supported: ORCiD, Google Scholar (`gscholar`), Bluesky, Linkedin, Twitter, Mastodon, Facebook, Github)
 - Image on the About/Index page
-- Description on the About/Index page (PhD student, etc)
+- Description on the About/Index page (PhD student, etc) (`designation`)
 - Interests that will appear on your main page
 
 `_people/<name>.md` contains:
 - Photo that will appear on your page
-- Quote that will appear on the `/people` page (on mouseover)
-- 'Role' for sorting on the `/people` page (ex: `member`, `alumni`)
+- Quotes that will appear on the `/people` page (on mouseover) (can have more than one, see Emma's page for an example)
+- 'Role' for sorting on the `/people` page (ex: `member`, `alumni`, `visitor`)
 - Projects you are involved in (appears on your page) (copy this exactly from `_data/nav.yml`!)
 - Text that you write about yourself, as the main content
 
 To change your photo, the easiest thing to do is to just replace the photo of yourself `assets/images/people` and ensure it's named the same! Ensure your photo is square (or it won't crop correctly) and isn't huge (will load slowly). Resize if you need!
 
-To change your 'socials' (also ORCiD/GScholar) you can generally just add a new entry to your section of `_data/team.yml` - currently supported are Twitter, Github, Bluesky, ORCiD, Google Scholar (`gscholar`), and LinkedIn. Talk to Emma about adding any others!
+To change your 'socials' (also ORCiD/GScholar) you can generally just add a new entry to your section of `_data/team.yml`. Talk to Emma about adding any others!
 
 ## Adding Tools/Resources
 
