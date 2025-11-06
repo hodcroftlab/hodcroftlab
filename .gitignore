@@ -1,4 +1,6 @@
 _site/
+# don't commit docs anymore as it builds on github now (6 Nov 2025)
+docs/
 .sass-cache/
 .jekyll-cache/
 .jekyll-metadata
