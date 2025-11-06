@@ -57,22 +57,22 @@ bundle _2.6.2_ install
 ### 🔧 Step 5: Serve the Website
 
 ```bash
-JEKYLL_ENV=production jekyll serve
+jekyll serve --incremental
 ```
 
-Some websites suggest to use `JEKYLL_ENV=production bundle exec jekyll serve` but this has never worked for Emma.
+Some websites suggest to use `bundle exec jekyll serve` but this has never worked for Emma.
 
-Note that using `JEKYLL_ENV=production` will mean it inserts the 'real' URL (not `localhost`) into the website pages, sitemap, etc, which helps with the live website. It's important to build using this before you push, but if you are having trouble with links working locally, feel free to remove this when you build locally for testing - just add it back before you do a final build & push!
+Note that using `--incremental` means the site will live-rebuild any pages that you change (and save) locally.
 
-To view the site, navigate to [http://127.0.0.1:4000/hodcroftlab](http://127.0.0.1:4000/hodcroftlab) to view. Note you can only view the site locally while this is running. To stop running, use `CTRL+C`. To see changes, you have to stop & rebuild!
+To view the site, navigate to [http://127.0.0.1:4000/hodcroftlab](http://127.0.0.1:4000/hodcroftlab) to view. Note you can only view the site locally while this is running. To stop running, use `CTRL+C`. To see changes, refresh the page locally. (Be sure you've actually saved the page, or it won't rebuild and show the change!)
 
 ### (Bonus) 🔄️ Step 6: Build Before Pushing!
 
-Remember, to actually change the website, you have to generate the new html files - so you **should always build before pushing to Github**, or you change won't show!
+Remember, it's good practice to view any changes locally (see above) before pushing! This ensures you haven't broken anything else and that the changes look as you expect. For very small changes (fixing typos, adding sentence) it's not always necessary to check locally - but be careful!
 
-This is also a good reminder to always check your changes have worked the way you thought they should locally, before pushing!
+If making small edits, as long as you've checked locally, it's ok to push directly to `master`. However if proposing larger changes, make them on a branch and submit a PR, so others can check it locally & ensure they like the change (and that it works as expected) before making changes to the website. (If necessary, please flag your PR to ensure others see it, for example, in the Slack!)
 
-If making small edits, as long as you've checked locally, it's ok to push directly to `master`. However if proposing larger changes, make them on a branch and submit a PR, so others can check it locally & ensure they like the change (and that it works as expected) before making changes to the website.
+Once you push a change to the `master` branch (or merge a PR into `master`), Github will automatically re-build and deploy the live site.
 
 
 ## How to Edit Jekyll Sites
