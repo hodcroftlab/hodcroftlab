@@ -141,21 +141,10 @@ Throughout the site we often make use of 'FontAwesome' icons for links and for d
 
 ## To Do list:
 
-- [x] Set real pictures for all projects
-- [x] Fix/adjust/find better pictures for all collaborations
-- [x] For both of the above, set picture size?
-- [x] Write pages for all projects
-- [x] Write pages for all collaborations
-- [x] Reformat blog pages
-- [x] Write at least 1 blog post
-- [x] Test having a blog post by another author
-- [x] Create new 'tools' or 'resources' tab
-- [x] Upgrade fontawesome & migrate all icons
-- [x] Add fontawesome icons to collab pages
-- [x] Link to proper URL
-- [x] Add plausible tracking
-- [x] Add social media preview image
-- [x] Find out what Apple touch icon is?
-- [ ] Everyone fill in their own page
-- [ ] Create a way to have subprojects
-- [ ] Look into auto-building with Github actions (see how ARTIC is doing it [here](https://github.com/artic-network/artic-doc/blob/main/.github/workflows/jekyll.yml))
+- [x] Set up auto-building with Github actions
+- [ ] New page for Anya
+- [ ] New page for Salome
+- [ ] Add page for PDN as Collaboration
+- [ ] Create a way to have subprojects (for specific projects within the larger groups)
+- [ ] Should we upgrade to a newer version of Ruby/Gems?
+
