@@ -3,7 +3,7 @@ layout: person
 title: Nema Ahmed Alfaki
 position: MSc student
 role: member
-order: 5
+order: 7
 image: /assets/images/people/nema-ahmed-alfaki.jpg
 permalink: /people/nema-ahmed-alfaki/
 quote: ["Nice to meet you!"]
