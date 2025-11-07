@@ -55,18 +55,30 @@
     - Tea and dark chocolate
     - Accidentally cultivating porridge-based microbial civilizations
 
+- name: Salomé Lochmann
+  designation: PhD student
+  image: /assets/images/people/salome-lochmann.jpg
+  linkedin: 'https://www.linkedin.com/in/salom%C3%A9-lochmann-981572278/'
+  github: 'https://github.com/salomelochmann'
+  link: /people/salome-lochmann/
+  interests:
+    - Zipping around on her bike
+    - Finding delicious cake
+    - Fearlessly riding on any roller coaster at EuropaPark
 
 - name: Kai Wanner
   designation: MSc student
   image: /assets/images/people/kai-wanner.jpg
+  github: 'https://github.com/RealKaiWanner'
   link: /people/kai-wanner/
   interests:
-    - Learning about EVs
-    - Rocking his MSc studies
+    - Finishing the last slice of cake
+    - Combining computers & labwork
 
 - name: Nema Ahmed Alfaki
   designation: MSc student
   image: /assets/images/people/nema-ahmed-alfaki.jpg
+  linkedin: 'https://www.linkedin.com/in/nema-ahmed-257948216'
   link: /people/nema-ahmed-alfaki/
   interests:
     - Learning about HCoVs

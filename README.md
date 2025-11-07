@@ -66,6 +66,14 @@ Note that using `--incremental` means the site will live-rebuild any pages that 
 
 To view the site, navigate to [http://127.0.0.1:4000/hodcroftlab](http://127.0.0.1:4000/hodcroftlab) to view. Note you can only view the site locally while this is running. To stop running, use `CTRL+C`. To see changes, refresh the page locally. (Be sure you've actually saved the page, or it won't rebuild and show the change!)
 
+**If** changes are not showing locally after refreshing (particularly after adding new pages), you may need to do a full clean and rebuild. To do this, clean the built files using
+
+```bash
+rm -rf _site .jekyll-cache .sass-cache
+```
+
+Then serve the website with the first command again.
+
 ### (Bonus) 🔄️ Step 6: Build Before Pushing!
 
 Remember, it's good practice to view any changes locally (see above) before pushing! This ensures you haven't broken anything else and that the changes look as you expect. For very small changes (fixing typos, adding sentence) it's not always necessary to check locally - but be careful!
@@ -143,7 +151,8 @@ Throughout the site we often make use of 'FontAwesome' icons for links and for d
 
 - [x] Set up auto-building with Github actions
 - [ ] New page for Anya
-- [ ] New page for Salome
+- [x] New page for Salome
+- [ ] Quote for Salome
 - [ ] Add page for PDN as Collaboration
 - [ ] Create a way to have subprojects (for specific projects within the larger groups)
 - [ ] Should we upgrade to a newer version of Ruby/Gems?

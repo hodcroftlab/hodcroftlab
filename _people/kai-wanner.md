@@ -3,14 +3,14 @@ layout: person
 title: Kai Wanner
 position: MSc student
 role: member
-order: 5
+order: 6
 image: /assets/images/people/kai-wanner.jpg
 permalink: /people/kai-wanner/
 projects:
   - title: Enterovirus D68 Projects
     link: /projects/evd68/
     icon: /assets/images/icons/evd68.png
-quote: ["Hallo!"]
+quote: ["A good conversation is one where you drift so far off topic that you no longer remember what you started with."]
 lab_start: 2025-01
 lab_end: 2025-11
 date: 2025-07-25
