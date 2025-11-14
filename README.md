@@ -30,11 +30,17 @@ gem install bundler -v 2.6.2
 bundler -v
 ```
 
-Install necessary compilers:
+Install necessary compilers on linux:
 
 ```bash
 micromamba install -c conda-forge gcc_linux-64 gxx_linux-64 pkg-config make libffi openssl
 ```
+On MacOS:
+
+```bash
+micromamba install -c conda-forge clang_osx-64 clangxx_osx-64 pkg-config make libffi openssl
+```
+
 
 ### 📂 Step 3: Clone the repository
 
