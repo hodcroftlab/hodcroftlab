@@ -42,6 +42,18 @@
     - Becoming both a lab and computer whiz
     - Keeping up with the latest Korean dramas
 
+- name: Anna (Anya) Parker
+  designation: Software Engineer
+  image: /assets/images/people/anna-parker.png
+  linkedin: 'https://www.linkedin.com/in/anna-anya-parker-b916981aa/'
+  github: 'https://github.com/anna-parker'
+  link: /people/anna-parker/
+  interests:
+    - 2000s pop punk music
+    - Control theory
+    - Rabbits and other small fluffy animals
+    - Experimenting with protein modeling and structural AI
+
 - name: Keno Strotjohann
   designation: PhD student
   image: /assets/images/people/keno-strotjohann.png
