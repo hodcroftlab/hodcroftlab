@@ -3,7 +3,7 @@ layout: person
 title: Salomé Lochmann
 position: PhD student
 role: member
-order: 5
+order: 6
 image: /assets/images/people/salome-lochmann.jpg
 permalink: /people/salome-lochmann/
 projects:
