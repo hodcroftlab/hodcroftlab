@@ -70,7 +70,7 @@ Some websites suggest to use `bundle exec jekyll serve` but this has never worke
 
 Note that using `--incremental` means the site will live-rebuild any pages that you change (and save) locally.
 
-To view the site, navigate to [http://127.0.0.1:4000/hodcroftlab](http://127.0.0.1:4000/hodcroftlab) to view. Note you can only view the site locally while this is running. To stop running, use `CTRL+C`. To see changes, refresh the page locally. (Be sure you've actually saved the page, or it won't rebuild and show the change!)
+To view the site, navigate to [http://127.0.0.1:4000](http://127.0.0.1:4000) to view. Note you can only view the site locally while this is running. To stop running, use `CTRL+C`. To see changes, refresh the page locally. (Be sure you've actually saved the page, or it won't rebuild and show the change!)
 
 **If** changes are not showing locally after refreshing (particularly after adding new pages), you may need to do a full clean and rebuild. To do this, clean the built files using
 
