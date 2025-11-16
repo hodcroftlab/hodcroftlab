@@ -9,7 +9,7 @@ permalink: /people/anna-parker/
 projects:
   - title: Loculus
     link: /projects/loculus/
-    icon: /assets/images/icons/loculus.png
+    icon: /assets/images/icons/loculus.svg
   - title: Enterovirus Epidemiology & Evolution
     link: /projects/evs/
     icon: /assets/images/icons/eva71.png

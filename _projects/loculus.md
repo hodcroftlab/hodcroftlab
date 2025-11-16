@@ -2,7 +2,7 @@
 layout: project
 title: "Loculus"
 description: "Open-source database software for genomic data, dedicated to empowering better sequence storage, sharing, and access."
-image: /assets/images/projects/loculus.png
+image: /assets/images/projects/loculus.jpg
 icon: /assets/images/icons/loculus.svg
 date: 2025-01-06
 tags:
