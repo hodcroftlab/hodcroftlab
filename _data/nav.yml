@@ -42,9 +42,12 @@
     - title: Center for Pathogen Bioinformatics
       link: /collaborations/cpb/
       icon: fas fa-shapes
-    - title: Pathoplexus & Loculus
+    - title: Pathoplexus
       link: /collaborations/pathoplexus/
       icon: fas fa-square-virus
+    - title: Loculus
+      link: /collaborations/loculus/
+      icon: fas fa-dna
     - title: ARTIC 2.0
       link: /collaborations/artic2/
       icon: fas fa-circle-nodes

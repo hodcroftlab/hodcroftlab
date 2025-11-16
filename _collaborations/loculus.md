@@ -1,21 +1,26 @@
 ---
-layout: project
+layout: collaboration
 title: "Loculus"
 description: "Open-source database software for genomic data, dedicated to empowering better sequence storage, sharing, and access."
-image: /assets/images/projects/loculus.jpg
-icon: /assets/images/icons/loculus.svg
-date: 2025-01-06
+icon: fas fa-dna
+image: /assets/images/collaborations/loculus.jpg
+logo: /assets/images/icons/loculus.svg
+start_date: 2023-07-12
 tags:
+  - Software
+  - Community
   - International
   - Surveillance
-  - Phylogeography
+  - Open Data
 people:
   - anna-parker
 order: 5
-date: 2024-04-01
+date: 2025-11-01
 ---
 
-Loculus is a software package to power microbial genomic databases. It is used by [Pathoplexus](https://pathoplexus.org/).
+### Loculus: Software to power storage, search, and sharing of pathogen genomes
+
+Loculus is a software package to power microbial genomic databases. It is used by [Pathoplexus](/collaborations/pathoplexus).
 
 Major features include:
 - Upload and storage of consensus sequences and metadata using a simple web interface or a web API
@@ -24,5 +29,5 @@ Major features include:
 - Highly configurable: The list of metadata fields is fully configurable and Loculus supports both single- and multi-segmented genomes.
 
 
-Visit our [Github page](https://github.com/loculus-project/loculus) or go to [Pathoplexus.org](https://pathoplexus.org/) to see Loculus in action!
+Visit our [Github page](https://github.com/loculus-project/loculus), visit our [website](https://loculus.org/), or go to [Pathoplexus.org](https://pathoplexus.org/) to see Loculus in action!
 
