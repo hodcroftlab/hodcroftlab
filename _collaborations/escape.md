@@ -12,6 +12,9 @@ tags:
   - Community
   - Surveillance
   - Europe
+people:
+  - nosihle-msomi
+  - nadia-neuner-jehle
 date: 2025-07-25
 ---
 

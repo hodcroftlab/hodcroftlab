@@ -12,6 +12,10 @@ tags:
   - Surveillance
   - International
   - Open Data
+people:
+  - anna-parker
+  - nadia-neuner-jehle
+  - alejandra-gonzalez
 date: 2025-07-25
 ---
 

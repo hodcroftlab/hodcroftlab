@@ -11,6 +11,9 @@ projects:
   - title: Seasonal Coronavirus Epidemiology & Evolution
     link: /projects/hcovs/
     icon: /assets/images/icons/sc2.png
+  - title: VIM
+    link: /collaborations/vim
+    icon: /assets/images/icons/vim.svg
 lab_start: 2025-07
 lab_end: 2026-02
 date: 2025-07-25

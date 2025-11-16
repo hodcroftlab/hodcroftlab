@@ -10,6 +10,10 @@ tags:
   - Europe
   - Enterovirus
   - Surveillance
+people:
+  - nadia-neuner-jehle
+  - keno-strotjohann
+  - salome-lochmann
 date: 2025-07-25
 ---
 
