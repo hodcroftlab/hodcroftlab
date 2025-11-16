@@ -28,5 +28,3 @@ Her MSc research focused on investigating virus spillover events from wildlife t
 
 Salomé brings creativity, curiosity, and initiative to her work, thriving in problem-solving and precise experimentation. Outside the lab, she enjoys cycling up mountain roads, painting murals and exploring new cultures while learning different languages.
 She appreciates the supportive and collaborative atmosphere at Swiss TPH, where interdisciplinary teams work together toward a shared goal—advancing global health through science that benefits people in all parts of the world.
-
-Salomé is a shared PhD student working both in EVE and in the . 
