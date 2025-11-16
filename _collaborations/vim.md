@@ -13,6 +13,11 @@ tags:
   - Surveillance
   - Enterovirus
   - Coronavirus
+people:
+  - nosihle-msomi
+  - salome-lochmann
+  - kai-wanner
+  - nema-ahmed-alfaki
 date: 2025-07-25
 ---
 

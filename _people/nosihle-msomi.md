@@ -13,6 +13,9 @@ projects:
   - title: ESCAPE
     link: /collaborations/escape/
     icon: fas fa-spinner
+  - title: VIM
+    link: /collaborations/vim
+    icon: /assets/images/icons/vim.svg
 quote: ["Ask me about my bunny!"]
 lab_start: 2024-09
 lab_end: Present

@@ -16,6 +16,12 @@ projects:
   - title: Seasonal Coronavirus Epidemiology & Evolution
     link: /projects/hcovs/
     icon: /assets/images/icons/sc2.png
+  - title: VIM
+    link: /collaborations/vim
+    icon: /assets/images/icons/vim.svg
+  - title: ENPEN
+    link: /collaborations/enpen/
+    icon: fas fa-lungs-virus
 quote: ["Halo!"]
 lab_start: 2025-11
 lab_end: Present

@@ -10,6 +10,9 @@ projects:
   - title: Enterovirus Epidemiology & Evolution
     link: /projects/evs/
     icon: /assets/images/icons/eva71.png
+  - title: ENPEN
+    link: /collaborations/enpen/
+    icon: fas fa-lungs-virus
 quote: ["Tell me about your favorite virus and dinosaur!"]
 lab_start: 2025-04
 lab_end: Present

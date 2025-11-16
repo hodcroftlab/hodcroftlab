@@ -10,6 +10,9 @@ projects:
   - title: Enterovirus D68 Projects
     link: /projects/evd68/
     icon: /assets/images/icons/evd68.png
+  - title: VIM
+    link: /collaborations/vim
+    icon: /assets/images/icons/vim.svg
 quote: ["A good conversation is one where you drift so far off topic that you no longer remember what you started with."]
 lab_start: 2025-01
 lab_end: 2025-11

@@ -16,6 +16,15 @@ projects:
   - title: Basel Wastewater
     link: /projects/basel-wastewater/
     icon: /assets/images/icons/toilet.png
+  - title: ESCAPE
+    link: /collaborations/escape/
+    icon: fas fa-spinner
+  - title: ENPEN
+    link: /collaborations/enpen/
+    icon: fas fa-lungs-virus
+  - title: Pathoplexus
+    link: /collaborations/pathoplexus/
+    icon: /assets/images/icons/pathoplexus.svg
 quote: ["Whipped up a quick Notion page… somehow it turned into a confusing masterpiece only I get."]
 lab_start: 2024-05
 lab_end: Present
