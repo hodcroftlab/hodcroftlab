@@ -18,7 +18,7 @@ We’re excited to announce the launch of the **first Nextclade dataset for Ente
 With EV-D68 cases already rising this season, clinicians and researchers can now use **Nextclade** to rapidly analyze their viral sequences, check sequence quality, identify clades, and compare results to a global phylogenetic tree — all within minutes in your web browser and without specialized software.
 Created together with the **European Non-Polio Enterovirus Network (ENPEN)**, this first Enterovirus dataset in Nextclade lays the groundwork for future Enterovirus datasets and coordinated surveillance efforts.
 
-You can explore the new Enterovirus D68 dataset [here](https://clades.nextstrain.org/?dataset-server=gh:&dataset-name=enpen/enterovirus/ev-d68)!
+You can explore the new Enterovirus D68 dataset [here](https://clades.nextstrain.org/?dataset-name=enpen/enterovirus/ev-d68)!
 
 This dataset was created by [Nadia Neuner-Jehle](/people/nadia-neuner-jehle/), [Alejandra González-Sánchez](/people/alejandra-gonzalez), and [Emma B. Hodcroft](/people/emma-hodcroft/).
 
@@ -145,11 +145,11 @@ While Nextclade provides a fast and accessible overview, it is not a replacement
 
 We encourage clinicians, researchers, and surveillance teams to explore the new EV-D68 dataset and share their feedback on [GitHub](https://github.com/enterovirus-phylo/nextclade_d68/issues) or via [email](mailto:eve-group@swisstph.ch). Your input helps improve these tools and supports coordinated Enterovirus surveillance worldwide.
 
-If you make use of this the dataset in a publication, please cite (Zenodo Concept DOI) and Aksamentov et al., 2021 ([doi](https://doi.org/10.21105/joss.03773)). Citing us in your work helps us demonstrate their usage and thus secure resources to maintain them!
+If you use this dataset in a publication, please cite [Neuner-Jehle & Hodcroft (2025)](https://doi.org/10.5281/zenodo.17642339) and [Aksamentov et al. (2021)](https://doi.org/10.21105/joss.03773). Citing this work helps us demonstrate its impact and secure resources for continued maintenance!
 
 **Links**:
 
-- 🔗 [EV-D68 Nextclade dataset](https://clades.nextstrain.org/?dataset-server=gh:&dataset-name=enpen/enterovirus/ev-d68)
+- 🔗 [EV-D68 Nextclade dataset](https://clades.nextstrain.org/?dataset-name=enpen/enterovirus/ev-d68)
 - 🔗 [Nextclade documentation](https://docs.nextstrain.org/projects/nextclade/en/latest/index.html)
 - 🔗 [ENPEN website](https://escv.eu/european-non-polio-enterovirus-network-enpen/)
 - 🔗 [Dataset Source Code on GitHub](https://github.com/enterovirus-phylo/nextclade_d68)
