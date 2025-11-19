@@ -10,7 +10,7 @@ categories:
     - ev-d68
 layout: post
 toc: false
-date: 2025-11-19
+date: 2025-11-20
 description: "Check out the new Nextclade dataset for Enterovirus D68!"
 ---
 # Check out the new Nextclade dataset for Enterovirus D68!
@@ -20,7 +20,7 @@ Created together with the **European Non-Polio Enterovirus Network (ENPEN)**, th
 
 You can explore the new Enterovirus D68 dataset [here](https://clades.nextstrain.org/?dataset-name=enpen/enterovirus/ev-d68)!
 
-This dataset was created by [Nadia Neuner-Jehle](/people/nadia-neuner-jehle/), [Alejandra González-Sánchez](/people/alejandra-gonzalez), and [Emma B. Hodcroft](/people/emma-hodcroft/).
+This dataset was created by [Nadia Neuner-Jehle](/people/nadia-neuner-jehle/), [Alejandra González Sánchez](/people/alejandra-gonzalez), and [Emma B. Hodcroft](/people/emma-hodcroft/).
 
 ### Dataset details
 
@@ -145,7 +145,7 @@ While Nextclade provides a fast and accessible overview, it is not a replacement
 
 We encourage clinicians, researchers, and surveillance teams to explore the new EV-D68 dataset and share their feedback on [GitHub](https://github.com/enterovirus-phylo/nextclade_d68/issues) or via [email](mailto:eve-group@swisstph.ch). Your input helps improve these tools and supports coordinated Enterovirus surveillance worldwide.
 
-If you use this dataset in a publication, please cite [Neuner-Jehle & Hodcroft (2025)](https://doi.org/10.5281/zenodo.17642339) and [Aksamentov et al. (2021)](https://doi.org/10.21105/joss.03773). Citing this work helps us demonstrate its impact and secure resources for continued maintenance!
+If you use this dataset in a publication, please cite [Neuner-Jehle, N., González Sánchez, A., Hodcroft, E. B., & ENPEN. (2025)](https://doi.org/10.5281/zenodo.17642339) and [Aksamentov et al. (2021)](https://doi.org/10.21105/joss.03773). Citing this work helps us demonstrate its impact and secure resources for continued maintenance!
 
 **Links**:
 
