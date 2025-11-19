@@ -15,7 +15,7 @@ description: "Check out the new Nextclade dataset for Enterovirus D68!"
 ---
 # Check out the new Nextclade dataset for Enterovirus D68!
 We’re excited to announce the launch of the **first Nextclade dataset for Enterovirus D68 (EV-D68)** - a major step toward easier, faster, and more consistent enterovirus surveillance.
-With EV-D68 cases already rising this season, clinicians and researchers can now use **Nextclade** to rapidly analyze their viral sequences, check sequence quality, identify clades, and compare results to a global phylogenetic tree — all within minutes in your web browser and without specialized software.
+With EV-D68 cases already rising this season, clinicians and researchers can now use **Nextclade** to rapidly analyze their viral sequences, check sequence quality, identify clades, and compare results to a global phylogenetic tree - all within minutes in your web browser and without specialized software.
 Created together with the **European Non-Polio Enterovirus Network (ENPEN)**, this first Enterovirus dataset in Nextclade lays the groundwork for future Enterovirus datasets and coordinated surveillance efforts.
 
 You can explore the new Enterovirus D68 dataset [here](https://clades.nextstrain.org/?dataset-name=enpen/enterovirus/ev-d68)!
@@ -39,7 +39,7 @@ Using whole-genome data allows reliable clade assignments even when VP1 is missi
 
 1. **Add your sequences and run the analysis**
     
-    Go to [nextclade.org](http://nextclade.org), choose the **Enterovirus D68** dataset, and either drag and drop your FASTA file or load an example. Click **"Run"** to start the analysis. 
+    Go to [nextclade.org](http://nextclade.org), choose the **Enterovirus D68** dataset, and either drag and drop your FASTA file or load an example. Click **"Run"** to start the analysis. (If "Suggest automatically" is turned on, you can also add your FASTA file and let it detect the EV-D68 dataset automatically.)
     
     Nextclade will align your sequences, assess quality, and assign clades automatically. 
     All processing happens directly in your **web browser.**
@@ -52,7 +52,7 @@ Using whole-genome data allows reliable clade assignments even when VP1 is missi
     
     ![Nextclade_results.svg](/assets/images/blog/Nextclade_results.svg)
     
-    The **"Genetic feature"** panel, located to the right of the screen, displays either the entire genome (when "Nucleotide sequence" is selected, as shown in the image) or a single gene, such as VP1. The colored lines represent mutations relative to the reference sequence. Hovering over the lines provides more details on the mutations. If viewing the whole genome, this is shown in nucleotides; if viewing a single gene, it is shown in amino acids. Grayed-out regions indicate missing data. Even if only partial regions are provided (e.g., 3D-pol), clade assignment can still be accurate.
+    The **"Genetic feature"** panel, located to the right of the screen, displays either the entire genome (when "Nucleotide sequence" is selected, as shown in the image) or a single gene, such as VP1. The colored lines represent mutations relative to the reference sequence. Hovering over the lines provides more details on the mutations. If viewing the whole genome, this is shown in nucleotides; if viewing a single gene, it is shown in amino acids. Grayed-out regions indicate missing data. Even if only partial regions are provided (e.g., 3D-pol), clade assignment is usually still accurate in EV-D68, due to the low recombination rate.
 
     <h4>References</h4>
 
@@ -61,7 +61,7 @@ Using whole-genome data allows reliable clade assignments even when VP1 is missi
     - _Reference_: The default reference is Fermon, and all sequences are aligned against it.
     - _Parent_: The closest parental node in the tree.
     - _Clade founder:_ The most recent common ancestor of all sequences sharing the same clade (e.g. B3 clade founder), inferred from the dataset.
-    - _Static Inferred Ancestor:_ A stable sequence close to the root that we have derived from an inferred ancestral node and that will not change in the future. We provide this as a reference because it is equidistant from all sequences in the tree, and more closely related than Fermon. You can view this sequence [here](https://github.com/enterovirus-phylo/nextclade_d68/blob/master/resources/inferred-root.fasta).
+    - _Static Inferred Ancestor:_ A stable sequence close to the root that we have derived from an inferred ancestral node and that will not change in the future. We provide this as a reference because it is equidistant from all sequences in the tree, and more closely related to currently circulating sequences than Fermon. You can view this sequence [here](https://github.com/enterovirus-phylo/nextclade_d68/blob/master/resources/inferred-root.fasta).
     - _Tree root:_ The dataset root, which may shift slightly between dataset releases.\
     <br>
     <h4>Clade Assignments</h4>
@@ -141,7 +141,7 @@ Some features we hope to include in the future are:
 
 These additions will further enhance the ability to quickly and easily obtain clade assignments and quality control information about more Enteroviruses.
 
-While Nextclade provides a fast and accessible overview, it is not a replacement for full phylo genetic analyses. To conduct in-depth evolutionary and recombination studies, explore our **Nextstrain Enterovirus trees** at [nextstrain.org/groups/hodcroftlab](https://nextstrain.org/groups/hodcroftlab), which include VP1, whole-genome, and tanglegram views. Or - check out the [Nextstrain tutorial](https://docs.nextstrain.org/en/latest/tutorials/creating-a-phylogenetic-workflow.html) to start setting up your own local build!
+While Nextclade provides a fast and accessible overview, and reliable QC and general clade assignment, it is **not a replacement for full phylogenetic analyses**. To conduct in-depth evolutionary and recombination studies, explore our **Nextstrain Enterovirus trees** at [nextstrain.org/groups/hodcroftlab](https://nextstrain.org/groups/hodcroftlab), which include VP1, whole-genome, and tanglegram views. Or - check out the [Nextstrain tutorial](https://docs.nextstrain.org/en/latest/tutorials/creating-a-phylogenetic-workflow.html) to start setting up your own local build!
 
 We encourage clinicians, researchers, and surveillance teams to explore the new EV-D68 dataset and share their feedback on [GitHub](https://github.com/enterovirus-phylo/nextclade_d68/issues) or via [email](mailto:eve-group@swisstph.ch). Your input helps improve these tools and supports coordinated Enterovirus surveillance worldwide.
 
