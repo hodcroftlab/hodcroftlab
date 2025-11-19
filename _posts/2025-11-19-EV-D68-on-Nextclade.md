@@ -11,9 +11,9 @@ categories:
 layout: post
 toc: false
 date: 2025-11-19
-description: "Checkout the new Nextclade dataset for Enterovirus D68!"
+description: "Check out the new Nextclade dataset for Enterovirus D68!"
 ---
-# Checkout the new Nextclade dataset for Enterovirus D68!
+# Check out the new Nextclade dataset for Enterovirus D68!
 We’re excited to announce the launch of the **first Nextclade dataset for Enterovirus D68 (EV-D68)** - a major step toward easier, faster, and more consistent enterovirus surveillance.
 With EV-D68 cases already rising this season, clinicians and researchers can now use **Nextclade** to rapidly analyze their viral sequences, check sequence quality, identify clades, and compare results to a global phylogenetic tree — all within minutes in your web browser and without specialized software.
 Created together with the **European Non-Polio Enterovirus Network (ENPEN)**, this first Enterovirus dataset in Nextclade lays the groundwork for future Enterovirus datasets and coordinated surveillance efforts.
