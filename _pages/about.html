@@ -28,7 +28,7 @@ desctiption: "EVE Lab is a computational biology lab that uses phylogenetics to 
     </div>
     <div class="row">
       {% for item in site.data.team %}
-        {% unless item.role == 'alumni' %}
+        {% if item.role == 'member' %}
         <div class="col-md-3 individual">
           <a href="{{ item.link | relative_url }}" class="team-card-link">
             <img width="100" height="100" class="team-image rounded-circle" src="{{item.image | relative_url}}"
