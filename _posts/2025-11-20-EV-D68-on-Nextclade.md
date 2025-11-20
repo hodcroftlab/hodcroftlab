@@ -145,7 +145,7 @@ While Nextclade provides a fast and accessible overview, and reliable QC and gen
 
 We encourage clinicians, researchers, and surveillance teams to explore the new EV-D68 dataset and share their feedback on [GitHub](https://github.com/enterovirus-phylo/nextclade_d68/issues) or via [email](mailto:eve-group@swisstph.ch). Your input helps improve these tools and supports coordinated Enterovirus surveillance worldwide.
 
-If you use this dataset in a publication, please cite [Neuner-Jehle, N., González Sánchez, A., Hodcroft, E. B., & ENPEN. (2025)](https://doi.org/10.5281/zenodo.17642339) and [Aksamentov et al. (2021)](https://doi.org/10.21105/joss.03773). Citing this work helps us demonstrate its impact and secure resources for continued maintenance!
+If you use this dataset in a publication, please cite [Neuner-Jehle, N., González Sánchez, A., Hodcroft, E. B., & ENPEN. (2025)](https://doi.org/10.5281/zenodo.17642338) and [Aksamentov et al. (2021)](https://doi.org/10.21105/joss.03773). Citing this work helps us demonstrate its impact and secure resources for continued maintenance!
 
 **Links**:
 
