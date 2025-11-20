@@ -1,5 +1,6 @@
 - name: Emma Hodcroft
   designation: Professor, Principal Investigator
+  role: member
   image: /assets/images/people/emma-hodcroft.jpg
   twitter: 'https://twitter.com/firefoxx66'
   github: 'https://github.com/hodcroftlab'
@@ -17,6 +18,7 @@
 
 - name: Nadia Neuner-Jehle
   designation: PhD student
+  role: member
   image: /assets/images/people/nadia-neuner-jehle.png
   linkedin: 'https://www.linkedin.com/in/nadia-neuner-jehle'
   github: 'https://github.com/nneune'
@@ -32,6 +34,7 @@
 
 - name: Nosihle Msomi
   designation: PhD student
+  role: member
   image: /assets/images/people/nosihle-msomi.png
   twitter: 'https://twitter.com/nosi_msomi'
   linkedin: 'https://www.linkedin.com/in/nosihlesmsomi'
@@ -44,6 +47,7 @@
 
 - name: Anna (Anya) Parker
   designation: Software Engineer
+  role: member
   image: /assets/images/people/anna-parker.png
   linkedin: 'https://www.linkedin.com/in/anna-anya-parker-b916981aa/'
   github: 'https://github.com/anna-parker'
@@ -56,6 +60,7 @@
 
 - name: Keno Strotjohann
   designation: PhD student
+  role: member
   image: /assets/images/people/keno-strotjohann.png
   twitter: 'https://twitter.com/st_keno'
   github: 'https://github.com/kstrotjohann'
@@ -69,6 +74,7 @@
 
 - name: Salomé Lochmann
   designation: PhD student
+  role: member
   image: /assets/images/people/salome-lochmann.jpg
   linkedin: 'https://www.linkedin.com/in/salom%C3%A9-lochmann-981572278/'
   github: 'https://github.com/salomelochmann'
@@ -80,6 +86,7 @@
 
 - name: Kai Wanner
   designation: MSc student
+  role: member
   image: /assets/images/people/kai-wanner.jpg
   github: 'https://github.com/RealKaiWanner'
   link: /people/kai-wanner/
@@ -89,6 +96,7 @@
 
 - name: Nema Ahmed Alfaki
   designation: MSc student
+  role: member
   image: /assets/images/people/nema-ahmed-alfaki.jpg
   linkedin: 'https://www.linkedin.com/in/nema-ahmed-257948216'
   link: /people/nema-ahmed-alfaki/
@@ -96,8 +104,9 @@
     - Learning about HCoVs
     - Rocking her MSc studies
 
-- name: Alejandra González Sánchez
+- name: Alejandra Gonzalez Sanchez
   designation: Bioinformatician & PhD student
+  role: alumni
   image: /assets/images/people/alejandra-gonzalez.jpg
   linkedin: 'https://www.linkedin.com/in/alejandra-gonzalez-sanchez'
   github: 'https://github.com/alejandra-gonzalezsanchez'

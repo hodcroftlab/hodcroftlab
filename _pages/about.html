@@ -28,37 +28,39 @@ desctiption: "EVE Lab is a computational biology lab that uses phylogenetics to 
     </div>
     <div class="row">
       {% for item in site.data.team %}
-      <div class="col-md-3 individual">
-        <a href="{{ item.link | relative_url }}" class="team-card-link">
-          <img width="100" height="100" class="team-image rounded-circle" src="{{item.image | relative_url}}"
-            alt="{{item.name}}">
-          <h4 class="name">{{item.name}}</h4>
-          <p class="position"><small>{{item.designation}}</small></p>
-          <ul class="team-social">
-            {% if item.twitter %}
-            <li><a href="{{item.twitter}}"><i class="fa-brands fa-twitter fa"></i></a></li>
-            {% endif %}
-            {% if item.bluesky %}
-            <li><a href="{{item.bluesky}}"><i class="fa-brands fa-bluesky fa"></i></a></li>
-            {% endif %}
-            {% if item.mastodon %}
-            <li><a href="{{item.mastodon}}"><i class="fa-brands fa-mastodon fa"></i></a></li>
-            {% endif %}
-            {% if item.facebook %}
-            <li><a href="{{item.facebook}}"><i class="fa-brands fa-facebook fa"></i></a></li>
-            {% endif %}
-            {% if item.linkedin %}
-            <li><a href="{{item.linkedin}}"><i class="fa-brands fa-linkedin-in fa"></i></a></li>
-            {% endif %}
-            {% if item.github %}
-            <li><a href="{{item.github}}"><i class="fa-brands fa-github fa"></i></a></li>
-            {% endif %}
-            {% if item.orcid %}
-            <li><a href="{{item.orcid}}"><i class="fa-brands fa-orcid fa"></i></a></li>
-            {% endif %}
-          </ul>
-        </a>
-      </div>
+        {% unless item.role == 'alumni' %}
+        <div class="col-md-3 individual">
+          <a href="{{ item.link | relative_url }}" class="team-card-link">
+            <img width="100" height="100" class="team-image rounded-circle" src="{{item.image | relative_url}}"
+              alt="{{item.name}}">
+            <h4 class="name">{{item.name}}</h4>
+            <p class="position"><small>{{item.designation}}</small></p>
+            <ul class="team-social">
+              {% if item.twitter %}
+              <li><a href="{{item.twitter}}"><i class="fa-brands fa-twitter fa"></i></a></li>
+              {% endif %}
+              {% if item.bluesky %}
+              <li><a href="{{item.bluesky}}"><i class="fa-brands fa-bluesky fa"></i></a></li>
+              {% endif %}
+              {% if item.mastodon %}
+              <li><a href="{{item.mastodon}}"><i class="fa-brands fa-mastodon fa"></i></a></li>
+              {% endif %}
+              {% if item.facebook %}
+              <li><a href="{{item.facebook}}"><i class="fa-brands fa-facebook fa"></i></a></li>
+              {% endif %}
+              {% if item.linkedin %}
+              <li><a href="{{item.linkedin}}"><i class="fa-brands fa-linkedin-in fa"></i></a></li>
+              {% endif %}
+              {% if item.github %}
+              <li><a href="{{item.github}}"><i class="fa-brands fa-github fa"></i></a></li>
+              {% endif %}
+              {% if item.orcid %}
+              <li><a href="{{item.orcid}}"><i class="fa-brands fa-orcid fa"></i></a></li>
+              {% endif %}
+            </ul>
+          </a>
+        </div>
+        {% endunless %}
       {% endfor %}
     </div>
   </div>
