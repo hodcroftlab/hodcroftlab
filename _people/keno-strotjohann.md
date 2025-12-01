@@ -19,8 +19,8 @@ lab_end: Present
 date: 2025-07-25
 ---
 
-Keno Strotjohann is a PhD student in the EVE group, where he's studying the evolution and recombination dynamics of polio and non-polio enteroviruses. Originally from Germany, he joined the team as an MSc student in 2024 and was inspired to stay on as a PhD student. He holds an MSc in Biochemistry from the University of Heidelberg, but during his master’s discovered a stronger pull toward computational research than lab work, trading the pipette for the keyboard.
+Keno Strotjohann is a PhD student in the EVE group, studying the evolution and recombination dynamics of polio and non-polio enteroviruses. Originally from Germany, he joined the team for his master's thesis in 2024 and subsequently continued as a PhD student. He holds an MSc in Biochemistry from the University of Heidelberg, but during his master’s discovered a stronger pull toward data analysis and bioinformatics than lab work, eventually shifting his focus entirely to computational research.
 
-His current research focusses on applying and developing new computational methods to study recombination in enteroviruses, with a particular emphasis on vaccine-derived polioviruses. Recently, he has also explored the evolution of human coronaviruses and developed an interest in protein structure prediction methods to better understand the structural and functional consequences of genetic change.
+His current research focuses on applying and developing new computational methods to study recombination in enteroviruses, with a particular emphasis on vaccine-derived polioviruses. Recently, he has also explored the evolution of human coronaviruses and developed an interest in protein structure prediction/modeling to better understand the structural and functional consequences of genetic change.
 
-Outside of his research work, Keno can often be found running along the Rhine or in the beautiful Swiss mountains, reading a good book with a cup of tea in hand, or playing the piano. Much like his research, these pursuits combine curiosity, focus, and an eagerness to follow interesting paths wherever they lead.
+Outside of his research work, Keno can often be found running along the Rhine, playing volleyball, or hiking in the Swiss mountains. He also enjoys unwinding with a book and a cup of tea, or playing the piano.
