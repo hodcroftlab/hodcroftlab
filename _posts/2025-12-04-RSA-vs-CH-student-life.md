@@ -1,6 +1,6 @@
 ---
 title: Starting a new life in a different city (RSA vs CH student edition)
-image: /assets/images/blog/RSA_vs_CH.png
+image: /assets/images/blog/RSA_vs_CH.jpg
 author: nosihle-msomi
 categories: 
     - student
@@ -59,4 +59,4 @@ Another thing I’ve noticed is that academics in Basel come across as more rela
 Despite all the differences, there are grounding similarities too. No matter the country, you meet fascinating people from all walks of life. You learn from experts doing impactful work. And, at the end of the day, your success still depends largely on you. Looking back, South Africa taught me resilience and community. Switzerland is teaching me balance and support. Somewhere between these two worlds, I’m becoming the scientist I always hoped I’d be.
 
 ![hiking](/assets/images/blog/vi_eve_hike.jpg)
-*Conquering Swiss mountains with the EVE and VIM lab members*
+<p style="clear: both; text-align:left;"><em>Conquering Swiss mountains with the EVE and VIM lab members</em></p>
