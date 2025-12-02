@@ -20,7 +20,7 @@ That first move was simple enough: pack my bags and leave my hometown, the sunny
 Both moves came with the same cocktail of nervous excitement: the promise of a fresh start, the hope of meeting new people and the fantasy of *“reinventing myself”* (usually in the form of deciding to go by my second name - spoiler: I never remember to actually introduce myself as 'Sithandiwe'). Both times I was always shocked to discover just how cold another city’s winter can be. Growing up in Durban, Pretoria’s rare negative-degree mornings felt dramatic. But now, even Pretoria feels warm in comparison 😂.
 
 
-![jacarandas](/assets/images/blog/jacarandas.jpg)
+![jacarandas](/assets/images/blog/jacarandas.jpg){: width="50%"}
 <p style="clear: both; text-align:left;"><em>Jacaranda season at the UP main campus</em></p>
 
 
@@ -30,9 +30,8 @@ Even though the feelings were the same, the experiences themselves couldn’t be
 One of the first things that surprised me was how undergraduate degrees are structured. In Switzerland, it’s completely normal to complete a Bachelor thesis as part of your degree. In South Africa, that’s usually reserved for your Honours degree – a one-year degree that falls in between the bachelor’s and master’s degree programmes. Most bachelor programmes back home focus heavily on coursework, with a few practical lab components. Only students who choose to continue with an Honours dive deeper into a research project and written dissertation. Part of this probably comes down to scale and funding. South Africa has about 26 public universities, with most students preferring to attend university rather than technical colleges, meaning that many universities take in more students than their infrastructure can comfortably handle. And so, to be able to accommodate as many students as possible, intensive lab work seems to be reserved only for those who want to continue with postgraduate studies.
 
 
-![rhine](/assets/images/blog/ice_cream_rhine.jpg)
-*The first of many ice creams by the Rhine*
-
+![rhine](/assets/images/blog/ice_cream_rhine.jpg){: width="50%"}
+<p style="clear: both; text-align:left;"><em>The first of many ice creams by the Rhine</em></p>
 
 Still, I really like the Swiss model. Including more lab-focused block courses directly in the bachelor’s degree prepares students with hands-on experience and real, employable skills without needing an extra year. And if you do want to continue into a Master’s or PhD, or practice some form of medical science care, you’d need Honours anyway. But for anyone heading straight into the workforce, this integrated approach feels genuinely beneficial.
 
@@ -40,7 +39,7 @@ One thing I really miss, though, is the strong sense of student culture we had a
 
 
 ![rag](/assets/images/blog/rag.jpg)
-*My friends and I infront of our Res RAG float*
+<p style="clear: both; text-align:left;"><em>My friends and I infront of our Res RAG float</em></p>
 
 
 UniBas is completely different, it’s spread across the city. The departments are tucked in between cafés, historic buildings, and tram lines. It’s great for learning the streets and integrating into the rhythm of Basel, but you definitely lose that feeling of a central student hub. You can build community here; it just requires more intention and effort.
@@ -48,7 +47,7 @@ UniBas is completely different, it’s spread across the city. The departments a
 Where Switzerland truly shines for me is academic support. My university, supervisors (although I must say this is always person-dependent), and graduate school offer a level of structured support that I hadn’t experienced before. Including more mentorship programmes, student conferences, and retreats. In fact, I’m writing this blog post from a writing retreat where my only job is to work on my manuscript. That kind of dedicated time is priceless.
 
 
-![retreat](/assets/images/blog/writing_retreat.jpg)
+![retreat](/assets/images/blog/writing_retreat.jpg){: width="50%"}
 <p style="clear: both; text-align:left;"><em>Definitely writing and not just posing for a picture 🤓</em></p>
 
 
