@@ -47,4 +47,4 @@ Nextclade datasets:
   description: Nextclade dataset for aligning, QC, and clade-assignment for EV-D68
   github: https://github.com/enterovirus-phylo/nextclade_d68
   url: https://clades.nextstrain.org/?dataset-name=enpen/enterovirus/ev-d68 
-  icon:  /assets/images/icons/Nextclade.svg
+  icon_img:  /assets/images/icons/Nextclade.svg
