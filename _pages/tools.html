@@ -12,8 +12,21 @@ description: Tools & resources developed by the EVE Lab
   <a href="https://nextstrain.org/groups/hodcroftlab" target="_blank" rel="noopener">here</a>.
 </p>
 
+<!-- Top navigation buttons for categories -->
+<div class="mb-4">
+  <div class="d-flex flex-wrap gap-2 mb-3">
+    {% for category in site.data.tools %}
+      {% assign cat_id = category[0] | downcase | replace: ' ', '-' %}
+      <a href="#{{ cat_id }}" class="btn btn-primary m-1">
+        {{ category[0] }}
+      </a>
+    {% endfor %}
+  </div>
+</div>
+
   {% for category in site.data.tools %}
-    <h3 class="mt-5 mb-3">{{ category[0] }}</h3>
+    {% assign cat_id = category[0] | downcase | replace: ' ', '-' %}
+    <h3 id="{{ cat_id }}" class="mt-5 mb-3">{{ category[0] }}</h3>
     <div class="row">
       {% assign catname = category[0] %}
       {% for tool in category[1] %}

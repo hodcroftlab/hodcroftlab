@@ -1,9 +1,9 @@
 
 Analysis tools:
-#- name: Recombination Detector
-#  description: Detect recombination events in viral genomes.
-#  url: https://recomb.eve-lab.org
-#  icon: fa-random
+# - name: Recombination Detector
+#   description: Detect recombination events in viral genomes.
+#   url: https://recomb.eve-lab.org
+#   icon: fa-random
 
 - name: EV-D68 Reference Converter
   description: Converts EV-D68 amino-acid positions to a corrected VP3-VP1 annotation
@@ -42,8 +42,9 @@ Nextstrain builds:
 #  url: https://data.eve-lab.org/coronavirus
 #  icon_img: /assets/images/icons/nextstrain-icon.svg
 
-#Nextclade datasets:
-#- name: EV-D68 Nextclade Dataset
-#  description: Nextclade dataset for aligning, QC, and clade-assignment for EV-D68
-#  github: https://github.com/hodcroftlab/nextclade_d68
-#  icon: fa-cog
+Nextclade datasets:
+- name: EV-D68 Nextclade Dataset
+  description: Nextclade dataset for aligning, QC, and clade-assignment for EV-D68
+  github: https://github.com/enterovirus-phylo/nextclade_d68
+  url: https://clades.nextstrain.org/?dataset-name=enpen/enterovirus/ev-d68 
+  icon_img:  /assets/images/icons/Nextclade.svg
