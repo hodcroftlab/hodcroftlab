@@ -16,6 +16,7 @@ people:
   - anna-parker
   - nadia-neuner-jehle
   - alejandra-gonzalez-sanchez
+  - max-verbiest
 date: 2025-07-25
 ---
 
