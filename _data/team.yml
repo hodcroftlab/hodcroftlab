@@ -58,6 +58,18 @@
     - Rabbits and other small fluffy animals
     - Experimenting with protein modeling and structural AI
 
+- name: Max Adriaan Verbiest
+  designation: Software Engineer
+  role: member
+  image: /assets/images/people/max-verbiest.jpg
+  linkedin: 'https://www.linkedin.com/in/max-verbiest-3413171a3/'
+  github: 'https://github.com/maverbiest'
+  link: /people/max-verbiest/
+  interests:
+    - Slowly accumulating an impracticle amount of guitars
+    - Reading, especially fantasy/sci-fi
+    - Hiking, running, exploring the great outdoors
+
 - name: Keno Strotjohann
   designation: PhD student
   role: member
