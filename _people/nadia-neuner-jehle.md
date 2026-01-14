@@ -3,7 +3,7 @@ layout: person
 title: Nadia Neuner-Jehle
 position: PhD student
 role: member
-order: 3
+order: 4
 image: /assets/images/people/nadia-neuner-jehle.png
 permalink: /people/nadia-neuner-jehle/
 projects:

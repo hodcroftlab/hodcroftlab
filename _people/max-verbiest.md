@@ -3,6 +3,7 @@ layout: person
 title: Max Verbiest
 position: Software Engineer
 role: member
+order: 3
 image: /assets/images/people/max-verbiest.jpg
 permalink: /people/max-verbiest/
 projects:
