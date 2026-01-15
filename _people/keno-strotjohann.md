@@ -3,7 +3,7 @@ layout: person
 title: Keno Strotjohann
 position: PhD student
 role: member
-order: 5
+order: 6
 image: /assets/images/people/keno-strotjohann.png
 permalink: /people/keno-strotjohann/
 projects:

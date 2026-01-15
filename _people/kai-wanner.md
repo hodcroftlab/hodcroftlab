@@ -3,7 +3,7 @@ layout: person
 title: Kai Wanner
 position: MSc student
 role: member
-order: 7
+order: 8
 image: /assets/images/people/kai-wanner.jpg
 permalink: /people/kai-wanner/
 projects:
