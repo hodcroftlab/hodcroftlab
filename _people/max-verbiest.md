@@ -26,7 +26,7 @@ Max grew up in the Netherlands, where he studied Biomedical Sciences (BSc.) and 
 Following this, he did his PhD in computational cancer genomics at the [Zurich University of Applied Sciences](https://www.zhaw.ch/en/lsfm/institutes-centres/icls/bioinformatics) and the [University of Zurich](https://www.mls.uzh.ch/en/research/baudis.html).
 Here, his work focussed investigating the role of [short tandem repeat](https://academic.oup.com/jeb/article/36/2/321/7326106) mutations in colorectal cancer.
 During the course of his doctoral studies, Max got more and more interested in developing scientific software to support academic research.
-This lead him to join the EVE lab as a software developer, where he now works on tools to enable the open sharing and analysis of human viral pathogen data.
+This led him to join the EVE lab as a software developer, where he now works on tools to enable the open sharing and analysis of human viral pathogen data.
 
 Max' main passion outside of work is playing guitar and writing music.
 He also enjoys playing video games, reading, hiking in the Swiss Alps, and plumbing the depths of Wikipedia rabbit holes.
