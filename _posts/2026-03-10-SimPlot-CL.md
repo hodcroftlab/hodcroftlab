@@ -9,7 +9,7 @@ categories:
     - software
 layout: post
 toc: false
-date: 2026-02-20
+date: 2026-03-10
 description: "A lightweight, Python-based command-line tool for generating similarity plots directly from sequences."
 ---
 # SimPlot-CL: Automated Similarity Plotting from the Command Line
