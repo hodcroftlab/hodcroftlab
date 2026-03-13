@@ -16,6 +16,32 @@
     - Coaxing things to grow on my balcony
     - Finding and enjoying delicious cheese
 
+- name: Anna (Anya) Parker
+  designation: Software Engineer
+  role: member
+  image: /assets/images/people/anna-parker.png
+  linkedin: 'https://www.linkedin.com/in/anna-anya-parker-b916981aa/'
+  github: 'https://github.com/anna-parker'
+  link: /people/anna-parker/
+  interests:
+    - 2000s pop punk music
+    - Control theory
+    - Rabbits and other small fluffy animals
+    - Experimenting with protein modeling and structural AI
+
+- name: Max Verbiest
+  designation: Software Engineer
+  role: member
+  image: /assets/images/people/max-verbiest.jpg
+  github: 'https://github.com/maverbiest'
+  linkedin: 'https://www.linkedin.com/in/max-verbiest-3413171a3/'
+  orcid: 'https://orcid.org/0000-0003-3424-0136'
+  link: /people/max-verbiest/
+  interests:
+    - Slowly accumulating an impracticle amount of guitars
+    - Reading, especially fantasy/sci-fi
+    - Hiking, running, exploring the great outdoors
+
 - name: Nadia Neuner-Jehle
   designation: PhD student
   role: member
@@ -44,32 +70,6 @@
   interests:
     - Becoming both a lab and computer whiz
     - Keeping up with the latest Korean dramas
-
-- name: Anna (Anya) Parker
-  designation: Software Engineer
-  role: member
-  image: /assets/images/people/anna-parker.png
-  linkedin: 'https://www.linkedin.com/in/anna-anya-parker-b916981aa/'
-  github: 'https://github.com/anna-parker'
-  link: /people/anna-parker/
-  interests:
-    - 2000s pop punk music
-    - Control theory
-    - Rabbits and other small fluffy animals
-    - Experimenting with protein modeling and structural AI
-
-- name: Max Verbiest
-  designation: Software Engineer
-  role: member
-  image: /assets/images/people/max-verbiest.jpg
-  github: 'https://github.com/maverbiest'
-  linkedin: 'https://www.linkedin.com/in/max-verbiest-3413171a3/'
-  orcid: 'https://orcid.org/0000-0003-3424-0136'
-  link: /people/max-verbiest/
-  interests:
-    - Slowly accumulating an impracticle amount of guitars
-    - Reading, especially fantasy/sci-fi
-    - Hiking, running, exploring the great outdoors
 
 - name: Keno Strotjohann
   designation: PhD student
@@ -100,7 +100,7 @@
 
 - name: Kai Wanner
   designation: MSc student
-  role: member
+  role: alumni
   image: /assets/images/people/kai-wanner.jpg
   github: 'https://github.com/RealKaiWanner'
   link: /people/kai-wanner/

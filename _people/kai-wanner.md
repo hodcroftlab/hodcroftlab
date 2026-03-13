@@ -2,8 +2,7 @@
 layout: person
 title: Kai Wanner
 position: MSc student
-role: member
-order: 8
+role: alumni
 image: /assets/images/people/kai-wanner.jpg
 permalink: /people/kai-wanner/
 projects:
@@ -15,7 +14,7 @@ projects:
     icon: /assets/images/icons/vim.svg
 quote: ["A good conversation is one where you drift so far off topic that you no longer remember what you started with."]
 lab_start: 2025-01
-lab_end: 2025-11
+lab_end: 2025-02
 date: 2025-07-25
 ---
 
