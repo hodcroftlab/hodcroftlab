@@ -11,6 +11,11 @@ Analysis tools:
   github: https://github.com/hodcroftlab/evd68-converter
   icon: fa-braille
 
+- name: SimPlot-CL
+  description: Generate similarity plots for viral genomic sequences from the command line
+  github: https://github.com/hodcroftlab/simplot-cl
+  icon: fa-chart-line
+
 Nextstrain builds:
 - name: EV-D68 Nextstrain Build
   description: Whole genome phylogenetic analysis of EV-D68 
