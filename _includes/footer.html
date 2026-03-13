@@ -13,7 +13,11 @@
         <h3>Pages</h3>
         <ul>
           {% for item in site.data.nav %}
-          <li><a href="{{item.link | relative_url}}">{{item.title}}</a></li>
+            {% if item.dropdown %}
+              <li><a href="{{item.index_link | relative_url}}">{{item.title}}</a></li>
+            {% else %}
+              <li><a href="{{item.link | relative_url}}">{{item.title}}</a></li>
+            {% endif %}
           {% endfor %}
         </ul>
       </div>

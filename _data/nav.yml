@@ -11,6 +11,7 @@
   link: '/tools/'
   
 - title: Projects
+  index_link: /projects/
   dropdown:
     - title: Enterovirus Epidemiology & Evolution
       link: /projects/evs/
@@ -29,6 +30,7 @@
 
 
 - title: Collaborations
+  index_link: /collaborations/
   dropdown:
     - title: VIM
       link: /collaborations/vim/
