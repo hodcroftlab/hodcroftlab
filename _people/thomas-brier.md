@@ -3,7 +3,7 @@ layout: person
 title: Thomas Brier
 position: Software Engineer
 role: member
-order: 10
+order: 4
 image: /assets/images/people/thomas-brier.png
 permalink: /people/thomas-brier/
 projects:
