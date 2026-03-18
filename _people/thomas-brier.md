@@ -4,7 +4,7 @@ title: Thomas Brier
 position: Software Engineer
 role: member
 order: 4
-image: /assets/images/people/thomas-brier.png
+image: /assets/images/people/thomas-brier.jpg
 permalink: /people/thomas-brier/
 projects:
   - title: Loculus
