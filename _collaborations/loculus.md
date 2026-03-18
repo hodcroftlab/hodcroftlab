@@ -15,6 +15,7 @@ tags:
 people:
   - anna-parker
   - max-verbiest
+  - thomas-brier
 order: 5
 date: 2025-11-01
 ---

@@ -17,6 +17,7 @@ people:
   - nadia-neuner-jehle
   - alejandra-gonzalez-sanchez
   - max-verbiest
+  - thomas-brier
 date: 2025-07-25
 ---
 
