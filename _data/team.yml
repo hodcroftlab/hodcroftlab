@@ -131,9 +131,9 @@
   designation: Software Engineer
   role: member
   image: /assets/images/people/thomas-brier.png
-  github: "https://github.com/tombch"
-  linkedin: "https://www.linkedin.com/in/tombrier/"
-  orcid: "https://orcid.org/0009-0004-3319-2800"
+  github: 'https://github.com/tombch'
+  linkedin: 'https://www.linkedin.com/in/tombrier/'
+  orcid: 'https://orcid.org/0009-0004-3319-2800'
   link: /people/thomas-brier/
   interests:
     - Making sounds with synthesizers

@@ -3,7 +3,7 @@ layout: person
 title: Nosihle Msomi
 position: PhD student
 role: member
-order: 5
+order: 6
 image: /assets/images/people/nosihle-msomi.png
 permalink: /people/nosihle-msomi/
 projects:
