@@ -4,7 +4,7 @@ title: Anna (Anya) Parker
 position: Software Engineer
 role: member
 order: 2
-image: /assets/images/people/anna-parker.png
+image: /assets/images/people/anna-parker.jpg
 permalink: /people/anna-parker/
 projects:
   - title: Loculus

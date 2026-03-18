@@ -19,7 +19,7 @@
 - name: Anna (Anya) Parker
   designation: Software Engineer
   role: member
-  image: /assets/images/people/anna-parker.png
+  image: /assets/images/people/anna-parker.jpg
   linkedin: 'https://www.linkedin.com/in/anna-anya-parker-b916981aa/'
   github: 'https://github.com/anna-parker'
   link: /people/anna-parker/
@@ -41,6 +41,19 @@
     - Slowly accumulating an impracticle amount of guitars
     - Reading, especially fantasy/sci-fi
     - Hiking, running, exploring the great outdoors
+
+- name: Thomas Brier
+  designation: Software Engineer
+  role: member
+  image: /assets/images/people/thomas-brier.jpg
+  github: 'https://github.com/tombch'
+  linkedin: 'https://www.linkedin.com/in/tombrier/'
+  orcid: 'https://orcid.org/0009-0004-3319-2800'
+  link: /people/thomas-brier/
+  interests:
+    - Making sounds with synthesizers
+    - Scaring himself watching horror films
+    - Relaxing soon afterwards by the nearest river, lake or ocean
 
 - name: Nadia Neuner-Jehle
   designation: PhD student
@@ -127,15 +140,3 @@
   orcid: 'https://orcid.org/0000-0002-1809-3415'
   link: /people/alejandra-gonzalez-sanchez/
   
-- name: Thomas Brier
-  designation: Software Engineer
-  role: member
-  image: /assets/images/people/thomas-brier.jpg
-  github: 'https://github.com/tombch'
-  linkedin: 'https://www.linkedin.com/in/tombrier/'
-  orcid: 'https://orcid.org/0009-0004-3319-2800'
-  link: /people/thomas-brier/
-  interests:
-    - Making sounds with synthesizers
-    - Scaring himself watching horror films
-    - Relaxing soon afterwards by the nearest river, lake or ocean
