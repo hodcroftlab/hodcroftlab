@@ -39,6 +39,21 @@ permalink: /feed.xml
       ]]>
     </content>
 
+	{% if post.authors %}
+	{% for author_slug in post.authors %}
+	{% assign person = site.people | where: "slug", author_slug | first %}
+	{% if person %}
+	<author>
+		<name>{{ person.title }}</name>
+		<uri>{{ site.url }}{{ site.baseurl }}{{ person.url }}</uri>
+	</author>
+	{% else %}
+	<author>
+		<name>{{ author_slug }}</name>
+	</author>
+	{% endif %}
+	{% endfor %}
+	{% elsif post.author %}
 	{% assign person = site.people | where: "slug", post.author | first %}
 	{% if person %}
 	<author>
@@ -49,6 +64,7 @@ permalink: /feed.xml
 	<author>
 		<name>{{ post.author }}</name>
 	</author>
+	{% endif %}
 	{% endif %}
 
     {% if post.tags %}

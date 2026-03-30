@@ -1,0 +1,43 @@
+{% if page.authors %}
+  {% assign author_slugs = page.authors %}
+{% elsif page.author %}
+  {% assign author_slugs = page.author | split: "," %}
+{% endif %}
+
+{% for author_slug in author_slugs %}
+  {% assign author_slug_trimmed = author_slug | strip %}
+  {% assign author = site.people | where: "slug", author_slug_trimmed | first %}
+  {% if author %}
+  <div class="author-box d-flex gap-5 align-items-start mt-5 p-3 border rounded shadow-sm">
+    <img src="{{ author.image | relative_url }}" alt="{{ author.title }}" class="rounded-circle me-4" style="width: 80px; height: 80px; object-fit: cover; margin-right: 1.5rem;">
+    <div>
+      <h5 class="mb-1">
+        <a href="{{ author.url | relative_url }}">{{ author.title }}</a>
+      </h5>
+      {% if author.position %}
+        <p class="text-muted mb-2">{{ author.position }}</p>
+      {% endif %}
+      {% if author.quote %}
+      <div class="author-quotes-box" style="min-height:2em;">
+        {% for quote in author.quote %}
+          <span class="author-quote" style="display:none;">"{{ quote }}"</span>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+  {% endif %}
+{% endfor %}
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  document.querySelectorAll('.author-quotes-box').forEach(function(box) {
+    var quotes = box.querySelectorAll('.author-quote');
+    if (quotes.length > 0) {
+      var idx = Math.floor(Math.random() * quotes.length);
+      quotes.forEach(function(q, i) {
+        q.style.display = (i === idx) ? 'inline' : 'none';
+      });
+    }
+  });
+});
+</script>

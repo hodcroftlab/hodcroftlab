@@ -25,9 +25,22 @@ This layout is used for posts. Changing anything here will affect all posts(not 
                 <span>
                   <i class="fa-regular fa-calendar-days" aria-hidden="true"></i> {{page.date | date_to_string }}&nbsp;
                 </span>
+                {% if page.authors %}
+                <span>
+                  <i class="fa fa-user" aria-hidden="true"></i>
+                  {% for author_slug in page.authors %}
+                    {% assign author_obj = site.people | where: "slug", author_slug | first %}
+                    {% if author_obj %}
+                      <a href="{{ author_obj.url | relative_url }}">{{ author_obj.title }}</a>
+                    {% else %}
+                      {{ author_slug | replace: '-', ' ' | capitalize }}
+                    {% endif %}
+                    {% unless forloop.last %}, {% endunless %}
+                  {% endfor %}
+                </span>
+                {% elsif page.author %}
                 {% assign author_slug = page.author %}
                 {% assign author_obj = site.people | where: "slug", author_slug | first %}
-
                 <span>
                   <i class="fa fa-user" aria-hidden="true"></i>
                   {% if author_obj %}
@@ -36,6 +49,7 @@ This layout is used for posts. Changing anything here will affect all posts(not 
                     {{ author_slug | replace: '-', ' ' | capitalize }}
                   {% endif %}
                 </span>
+                {% endif %}
                 <span>
                   <i class="fa-regular fa-clock" aria-hidden="true"></i> {% include reading-time.html %}
                 </span>
@@ -61,8 +75,8 @@ This layout is used for posts. Changing anything here will affect all posts(not 
             {% endif %}
 
 
-            {% if page.author %}
-            {% include author.html %}
+            {% if page.authors or page.author %}
+            {% include authors.html %}
             {% endif %}
 
             {% if site.disqus %}
