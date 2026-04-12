@@ -8,7 +8,7 @@ categories:
     - fun
     - survey
 toc: false
-date: 2026-03-30
+date: 2026-04-12
 description: "A Rigorous (But Fun) Survey of Coffee Preferences at Swiss TPH"
 layout: post
 ---
@@ -46,7 +46,7 @@ unfold.
 
 Interestingly, we quickly realized that tea drinkers felt left out -
 they opened the survey and found mostly coffee-related questions. So we
-added a dedicated tea section (thanks to Nosi for major editorial
+added a dedicated tea section (thanks to [Nosi](/people/nosihle-msomi/) for major editorial
 contributions) and introduced branching logic, sending tea and coffee
 drinkers down different paths based on their initial answer.
 
