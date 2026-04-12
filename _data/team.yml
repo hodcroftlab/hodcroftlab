@@ -140,3 +140,12 @@
   orcid: 'https://orcid.org/0000-0002-1809-3415'
   link: /people/alejandra-gonzalez-sanchez/
   
+- name: Emilie Roth
+  designation: MSc student
+  role: member
+  image: /assets/images/people/emilie-roth.jpg
+  github: 'https://github.com/EmilieRoth'
+  link: /people/emilie-roth/
+  interests:
+    - expanding her bioinfromatics skills
+    - biking through the city
