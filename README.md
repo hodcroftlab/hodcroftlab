@@ -158,10 +158,10 @@ Throughout the site we often make use of 'FontAwesome' icons for links and for d
 ## To Do list:
 
 - [x] Set up auto-building with Github actions
-- [ ] New page for Anya
+- [x] New page for Anya
 - [x] New page for Salome
-- [ ] Quote for Salome
-- [ ] Add page for PDN as Collaboration
+- [x] Quote for Salome
+- [x] Add page for PDN as Collaboration
 - [ ] Create a way to have subprojects (for specific projects within the larger groups)
 - [ ] Should we upgrade to a newer version of Ruby/Gems?
 
