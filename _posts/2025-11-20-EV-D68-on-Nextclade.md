@@ -1,7 +1,9 @@
 ---
 title: Enterovirus D68 now on Nextclade!
 image: /assets/images/blog/cover_image_nextclade_blog.png
-author: nadia-neuner-jehle
+authors:
+  - nadia-neuner-jehle
+  - emma-hodcroft
 categories: 
     - projects
     - nextclade
