@@ -2,7 +2,7 @@
 layout: person
 title: Nema Ahmed Alfaki
 position: MSc student
-role: member
+role: alumni
 order: 9
 image: /assets/images/people/nema-ahmed-alfaki.jpg
 permalink: /people/nema-ahmed-alfaki/
@@ -15,7 +15,7 @@ projects:
     link: /collaborations/vim
     icon: /assets/images/icons/vim.svg
 lab_start: 2025-07
-lab_end: 2026-02
+lab_end: 2026-05
 date: 2025-07-25
 ---
 
