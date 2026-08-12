@@ -27,14 +27,19 @@ Nextstrain builds:
   url: https://nextstrain.org/groups/hodcroftlab/enterovirus/A71/whole-genome
   icon_img: /assets/images/icons/nextstrain-icon.svg
 
-- name: CV-A6 Nextstrain Build
+- name: CVA6 Nextstrain Build
   description: Whole genome phylogenetic analysis of Coxsackievirus A6
   url: https://nextstrain.org/groups/hodcroftlab/coxsackievirus/A6/whole-genome
   icon_img: /assets/images/icons/nextstrain-icon.svg
 
-- name: CV-A16 Nextstrain Build
+- name: CVA16 Nextstrain Build
   description: Whole genome phylogenetic analysis of Coxsackievirus A16
   url: https://nextstrain.org/groups/hodcroftlab/coxsackievirus/A16/whole-genome
+  icon_img: /assets/images/icons/nextstrain-icon.svg
+
+- name: CVA10 Nextstrain Build
+  description: Whole genome phylogenetic analysis of Coxsackievirus A10
+  url: https://nextstrain.org/groups/hodcroftlab/coxsackievirus/A10/whole-genome
   icon_img: /assets/images/icons/nextstrain-icon.svg
 
 - name: Polio & EV-C Nextstrain Build
@@ -53,3 +58,21 @@ Nextclade datasets:
   github: https://github.com/enterovirus-phylo/nextclade_d68
   url: https://clades.nextstrain.org/?dataset-name=enpen/enterovirus/ev-d68 
   icon_img:  /assets/images/icons/Nextclade.svg
+
+- name: CVA16 Nextclade Dataset
+  description: Nextclade dataset for aligning, QC, and clade-assignment for CVA16
+  github: https://github.com/enterovirus-phylo/nextclade_a16
+  url: https://clades.nextstrain.org/?dataset-name=enpen/enterovirus/cva16
+  icon_img:  /assets/images/icons/Nextclade.svg
+
+# - name: EV-A71 Nextclade Dataset
+#   description: Nextclade dataset for aligning, QC, and clade-assignment for EV-A71
+#   github: https://github.com/enterovirus-phylo/nextclade_a71
+#   url: https://clades.nextstrain.org/?dataset-name=enpen/enterovirus/ev-a71
+#   icon_img:  /assets/images/icons/Nextclade.svg
+
+# - name: CVA10 Nextclade Dataset
+#   description: Nextclade dataset for aligning, QC, and clade-assignment for CVA10
+#   github: https://github.com/enterovirus-phylo/nextclade_a10
+#   url: https://clades.nextstrain.org/?dataset-name=enpen/enterovirus/cva10
+#   icon_img:  /assets/images/icons/Nextclade.svg
