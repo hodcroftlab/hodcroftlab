@@ -358,5 +358,5 @@ surprisingly large impact.
 Thanks to everyone who participated. ☕
 
 All code and data for this survey are available on
-[GitHub](https://github.com/neunna/coffee-survey) if you want to dig
+[GitHub](https://github.com/nneune/coffee-survey) if you want to dig
 deeper or adapt it for your own institute.
