@@ -3,7 +3,7 @@ layout: person
 title: Alejandra González Sánchez
 position: Postdoctoral Researcher
 role: member
-order: 11
+order: 5
 image: /assets/images/people/alejandra-gonzalez.jpg
 permalink: /people/alejandra-gonzalez-sanchez/
 projects:
